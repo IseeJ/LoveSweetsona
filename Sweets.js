@@ -1,8 +1,77 @@
 /*Made by: https://github.com/IseeJ
 Please don't use my code without permission!*/
 
-(function(_0x33b614,_0x3dacc){const _0x5b7bc4=_0x33b614();function _0x4a726e(_0x139ee0,_0x51d40e){return cupid_0x439b(_0x51d40e-'0xfb',_0x139ee0);}while(!![]){try{const _0x3af653=parseInt(_0x4a726e('0x2cc',0x2b4))/0x1*(-parseInt(_0x4a726e(0x2a0,0x2b8))/0x2)+parseInt(_0x4a726e('0x2c8','0x2c7'))/0x3+parseInt(_0x4a726e('0x2d5','0x2be'))/0x4*(-parseInt(_0x4a726e('0x2e7','0x2d6'))/0x5)+-parseInt(_0x4a726e('0x2c1',0x2c1))/0x6+parseInt(_0x4a726e(0x2c3,'0x2c8'))/0x7*(parseInt(_0x4a726e('0x2d3','0x2cc'))/0x8)+parseInt(_0x4a726e(0x2db,0x2d0))/0x9+-parseInt(_0x4a726e('0x2c7','0x2b7'))/0xa*(-parseInt(_0x4a726e('0x2c8',0x2cb))/0xb);if(_0x3af653===_0x3dacc)break;else _0x5b7bc4['push'](_0x5b7bc4['shift']());}catch(_0xe07fd3){_0x5b7bc4['push'](_0x5b7bc4['shift']());}}}(cupid_0x29a3,0x7f319));const cupid_0x59d5c6=(function(){let _0x562bb2=!![];return function(_0x529f22,_0xfe2f6d){const _0x223675=_0x562bb2?function(){function _0x3d6530(_0x5a3817,_0x2e3f44){return cupid_0x439b(_0x5a3817-'0x2',_0x2e3f44);}if(_0xfe2f6d){const _0x3843ed=_0xfe2f6d[_0x3d6530(0x1c2,0x1b2)](_0x529f22,arguments);return _0xfe2f6d=null,_0x3843ed;}}:function(){};return _0x562bb2=![],_0x223675;};}()),cupid_0x5518a7=cupid_0x59d5c6(this,function(){function _0x31bcdf(_0x25456c,_0x45c23b){return cupid_0x439b(_0x25456c- -0x3de,_0x45c23b);}return cupid_0x5518a7[_0x31bcdf(-0x223,-'0x22e')]()[_0x31bcdf(-0x224,-'0x238')]('(((.+)+)+)+$')['toString']()[_0x31bcdf(-0x219,-0x201)](cupid_0x5518a7)['search'](_0x31bcdf(-0x220,-0x234));});cupid_0x5518a7();function cupid_0x4e0060(_0x2f880b,_0x4df1b8){return cupid_0x439b(_0x4df1b8-0xf4,_0x2f880b);}document['addEventListener']('DOMContentLoaded',function(){function _0x1be0cf(_0x378c23,_0x74b87c){return cupid_0x439b(_0x74b87c-0x331,_0x378c23);}let _0x40d016=document[_0x1be0cf('0x4e5',0x4f3)](_0x1be0cf(0x527,0x518));function _0x3214a5(){function _0xb2fb86(_0x5dd72c,_0x5aaeef){return _0x1be0cf(_0x5aaeef,_0x5dd72c-'0x76');}if(_0x40d016['style'][_0xb2fb86(0x56f,'0x57c')]!==_0xb2fb86(0x585,0x572)){let _0x4a3abb=Math[_0xb2fb86(0x584,'0x598')](Math[_0xb2fb86(0x58d,0x597)]()*0x11170)+0x2710;setTimeout(_0x470331,_0x4a3abb);}}function _0x470331(){if(_0x40d016['style'][_0x23d5f4('0x3e9',0x3e7)]==='none')return;let _0x3c9b8e=document[_0x23d5f4('0x3e8',0x3fb)](_0x23d5f4('0x3f8',0x3f1));function _0x23d5f4(_0x5e0b11,_0x4a0994){return _0x1be0cf(_0x5e0b11,_0x4a0994- -0x112);}_0x3c9b8e[_0x23d5f4('0x40d','0x403')]='Sweetsona/Cu.gif',_0x3c9b8e['style']['position']='absolute',_0x3c9b8e[_0x23d5f4(0x3f5,'0x402')]['top']=Math['random']()*(window[_0x23d5f4('0x40a',0x3f5)]-0x96)+'px',_0x3c9b8e['style']['right']=_0x23d5f4(0x404,0x3fe),_0x3c9b8e[_0x23d5f4(0x3f2,0x402)][_0x23d5f4('0x3fa','0x3ea')]=_0x23d5f4(0x3fc,'0x404'),_0x3c9b8e[_0x23d5f4(0x414,0x402)][_0x23d5f4(0x3e5,'0x3f2')]='pointer',_0x3c9b8e['style'][_0x23d5f4('0x3f1','0x3f3')]=_0x23d5f4(0x417,'0x401'),_0x3c9b8e[_0x23d5f4(0x3e6,'0x3ed')]=function(){window['open']('https://iseej.github.io/LovePawsona/new.html','_blank');},document[_0x23d5f4(0x3ee,0x3e9)][_0x23d5f4('0x3da',0x3de)](_0x3c9b8e),setTimeout(()=>{function _0x46ddfe(_0x1ab771,_0x7c15c6){return _0x23d5f4(_0x1ab771,_0x7c15c6-'0xfe');}_0x3c9b8e['style'][_0x46ddfe('0x4e7','0x4ec')]='right\x207s\x20linear',_0x3c9b8e[_0x46ddfe(0x50f,0x500)][_0x46ddfe('0x4ee',0x4e6)]=window[_0x46ddfe(0x4e4,0x4de)]+'px';},0x64),setTimeout(()=>{_0x3c9b8e['remove']();},0x1770),_0x3214a5();}let _0x4f33a7=new MutationObserver(_0x3214a5);_0x4f33a7[_0x1be0cf(0x51d,'0x509')](_0x40d016,{'attributes':!![],'attributeFilter':[_0x1be0cf('0x510',0x514)]});let _0x2c06c8=document['createElement'](_0x1be0cf('0x509','0x514'));_0x2c06c8['innerHTML']=_0x1be0cf('0x4fe','0x508'),document[_0x1be0cf(0x4fc,'0x50b')]['appendChild'](_0x2c06c8);}),document[cupid_0x4e0060('0x2ac',0x2b6)]('start-button1')['addEventListener'](cupid_0x4e0060('0x2de',0x2cd),function(){const _0xdf53d9=document[_0x5f4ecb('0x518','0x513')]('notifSound');function _0x5f4ecb(_0x2df0a1,_0x34b5cd){return cupid_0x4e0060(_0x2df0a1,_0x34b5cd-'0x25d');}_0xdf53d9[_0x5f4ecb('0x520',0x518)](),document[_0x5f4ecb('0x517',0x513)](_0x5f4ecb('0x51b','0x532'))[_0x5f4ecb('0x51f','0x534')][_0x5f4ecb('0x51e','0x519')]=_0x5f4ecb('0x519',0x52f),document['getElementById'](_0x5f4ecb(0x53d,'0x531'))[_0x5f4ecb(0x525,'0x534')]['display']='flex';}),document[cupid_0x4e0060('0x2ce',0x2b6)]('start-button2')['addEventListener'](cupid_0x4e0060('0x2dc','0x2cd'),function(){const _0x162b42=document[_0x686806(0x58,'0x57')]('notifSound');_0x162b42[_0x686806('0x5a','0x5c')](),document['getElementById'](_0x686806('0x8b','0x76'))['style']['display']=_0x686806('0x68','0x73');function _0x686806(_0x434cef,_0x3150b3){return cupid_0x4e0060(_0x434cef,_0x3150b3- -'0x25f');}document['getElementById']('phone-screen')[_0x686806('0x73',0x78)]['display']=_0x686806(0x5c,0x59);});function cupid_0x439b(_0x3b81bb,_0x243d2a){_0x3b81bb=_0x3b81bb-0x1b9;const _0x1db998=cupid_0x29a3();let _0x5518a7=_0x1db998[_0x3b81bb];return _0x5518a7;}function cupid_0x29a3(){const _0x1d5eca=['\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20floatUpDown\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x20transform:\x20translateY(0px);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20transform:\x20translateY(-20px);\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x20transform:\x20translateY(0px);\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20','observe','click','head','10MuHZwR','createElement','floor','none','-200px','phone-screen','interm','floatUpDown\x203s\x20ease-in-out\x20infinite','style','src','150px','random','result-page','1JowSsl','search','toString','1851270qWsmdf','1503478Jppcty','(((.+)+)+)+$','appendChild','apply','innerWidth','getElementById','1634732SLvWHK','flex','constructor','2782806zkEyaW','play','display','right','body','width','2603466BmRKDu','721vCHhjh','onclick','transition','44yRqTWJ','52392wkYZWc','img','cursor','animation','2439126ZREyBu','innerHeight'];cupid_0x29a3=function(){return _0x1d5eca;};return cupid_0x29a3();}let currentMessageIndex=0x0;const scores={'B':0x0,'S':0x0,'W':0x0,'G':0x0,'P':0x0,'D':0x0,'A':0x0,'R':0x0};
+document.addEventListener("DOMContentLoaded", function () {
 
+    let resultPage = document.getElementById("result-page");
+
+    function checkAndTriggerGif() {
+        if (resultPage.style.display !== "none") {
+            //let randomInterval = Math.floor(Math.random() * 70000) + 10000;
+            let randomInterval = Math.floor(Math.random() * 10000) + 10000;
+            setTimeout(showFloatingGif, randomInterval);
+        }
+    }
+
+    function showFloatingGif() {
+        if (resultPage.style.display === "none") return;
+
+        let gif = document.createElement("img");
+        gif.src = "Sweetsona/cupid.gif";
+        gif.style.position = "absolute";
+        gif.style.top = Math.random() * (window.innerHeight - 150) + "px";
+        gif.style.right = "-200px";
+        gif.style.width = "150px";
+        gif.style.cursor = "pointer";
+        gif.style.animation = "floatUpDown 3s ease-in-out infinite";
+
+        gif.onclick = function () {
+            window.open("https://iseej.github.io/LovePawsona/new.html", "_blank");
+        };
+        document.body.appendChild(gif);
+
+        setTimeout(() => {
+            gif.style.transition = "right 7s linear";
+            gif.style.right = window.innerWidth + "px";
+        }, 100);
+
+        setTimeout(() => {
+            gif.remove();
+        }, 6000);
+        checkAndTriggerGif();
+    }
+
+    let observer = new MutationObserver(checkAndTriggerGif);
+    observer.observe(resultPage, { attributes: true, attributeFilter: ["style"] });
+
+    let style = document.createElement("style");
+    style.innerHTML = `
+        @keyframes floatUpDown {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); } 
+            100% { transform: translateY(0px); } 
+        }
+    `;
+    document.head.appendChild(style);
+});
+
+
+document.getElementById('start-button1').addEventListener('click', function () {
+    const notifSound = document.getElementById('notifSound');
+    notifSound.play();
+    document.getElementById('interm').style.display = 'none';
+    document.getElementById('phone-screen').style.display = 'flex';
+});
+
+
+document.getElementById('start-button2').addEventListener('click', function () {
+    const notifSound = document.getElementById('notifSound');
+    notifSound.play();
+    document.getElementById('interm').style.display = 'none';
+    document.getElementById('phone-screen').style.display = 'flex';
+});
+let currentMessageIndex = 0;
+const scores = { B: 0, S: 0, W: 0, G: 0, P: 0, D: 0, A: 0, R: 0 };
 const dialogue = [
     // 0 (0)
     {
