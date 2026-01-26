@@ -59,7 +59,7 @@ const dialogue = [
     // 5 (2.3)
     {
         speaker: 'bot',
-        text: ['Straightttt to the point! I LIKE it!', 'lemme explain', "I'm in charge of collecting some data to make THE perfect sweets for you", 'cupid\'s duty, 12 questions, blah blah blah, you know the drill, ready?'],
+        text: ["Alright, lemme explain!", "I'm in charge of collecting some data to make THE perfect sweets for you", 'cupid\'s duty, 12 questions, blah blah blah, you know the drill, ready?'],
         choices: [
             { id: 1, text: 'yes, Im ready', type: 'R', weight: 1, next: 6, followUpText: [] },
             { id: 2, text: 'YESSS LETS GOOOOO', type: 'A', weight: 1, next: 6, followUpText: [] }
