@@ -31,7 +31,7 @@ const dialogue = [
             { id: 1, text: 'Nah, not really', type: 'G', weight: 1, next: 3, followUpText: [] },
             { id: 2, text: 'Aw ofc i missed you!', type: 'P', weight: 1, next: 4, followUpText: [] },
             { id: 3, text: 'Sure, what do you need?', type: 'D', weight: 1, next: 5, followUpText: [] },
-            { id: 4, text: 'just a little...I think', type: 'G', weight: 1, next: 3, followUpText: [] },
+            { id: 4, text: 'just a little...I think', type: 'G', weight: 1, next: 4, followUpText: [] },
         ]
     },
 
@@ -94,7 +94,7 @@ const dialogue = [
     // 8 (5.1)
     {
         speaker: 'bot',
-        text: ["Well that's ok!", "I'm here to change that! (if you wan ofc)", "1) What kinda love are you hoping for, if I may ask...?"],
+        text: ["Well that's ok!", "I'm here to change that! (if you want)", "1) What kinda love are you hoping for, if I may ask...?"],
         choices: [
             { id: 1, text: 'the ride or die type, even when stuff gets messy', type: 'D', weight: 1, next: 11, followUpText: [] },
             { id: 2, text: 'total chaos, total fun. never a dull moment', type: 'P', weight: 1, next: 11, followUpText: [] },
@@ -114,7 +114,7 @@ const dialogue = [
     // 10 (5.3)
     {
         speaker: 'bot',
-        text: ["Keeping secrets, huh", "Fine—then tell me this:", "1) When love hits… what do you want it to feel like?"],
+        text: ["Keeping secrets, huh", "Fine, then tell me this", "1) When love hits… what do you want it to feel like?"],
         choices: [
             { id: 1, text: 'like knowing someone’s got my back, no matter what', type: 'D', weight: 1, next: 11, followUpText: [] },
             { id: 2, text: 'something kinda wild, spontaneous. but like... in a fun way', type: 'P', weight: 1, next: 11, followUpText: [] },
