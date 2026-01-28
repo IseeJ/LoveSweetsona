@@ -292,9 +292,9 @@ const dialogue = [
         speaker: "bot",
         text: ["okayy im blushinggg", "10) Date ideas for this Valentines'??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"G", weight: 1, next: 26, followUpText: [] },
+            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
             { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "R",type2:"P", weight: 1, next: 26, followUpText: [] },
+            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 26, followUpText: [] },
             { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
         ]
     },
@@ -389,7 +389,7 @@ const dialogue = [
     // 33 (12)
     {
         speaker: "bot",
-        text: ["That's the way to go!", "back to happy times~", "8) Things they did that makes you fall in love..."],
+        text: ["Works for me!", "back to happy times~", "8) Things they did that makes you fall in love..."],
         choices: [
             { id: 1, text: "Do something nice without being asked", type: "G", weight: 1, next: 34, followUpText: [] },
             { id: 2, text: "Listen, support me, and actually care", type: "D", weight: 1, next: 35, followUpText: [] },
@@ -473,10 +473,10 @@ const dialogue = [
         speaker: "bot",
         text: ["okayy im blushinggg", "10) Date ideas for this Valentines'??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"G", weight: 1, next: 41, followUpText: [] },
-            { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "R",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
+            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
+            { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
+            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 26, followUpText: [] },
+            { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
         ]
     },
     // 41 (15) --> 11 BSW
