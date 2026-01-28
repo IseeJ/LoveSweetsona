@@ -194,7 +194,9 @@ const dialogue = [
             { id: 4, text: "I miss you sooooo muchhh why aren't you HERE rnnn", type: "P", type2: "W", weight: 1, next: 17, followUpText: [] },
             { id: 5, text: "How's your day? Do you need anything?", type: "G", type2: "W", weight: 1, next: 17, followUpText: [] },
             { id: 6, text: "Thinking 'bout you ;) see you in five, sweetheart", type: "D", type2: "S", weight: 1, next: 17, followUpText: [] },
+            { id: 7, text: "[Name] sent you $XXXX.XX", type: "P", type2: "S", weight: 1, next: 17, followUpText: [] },
         ]
+
     },
     // 17 (11)
     {
@@ -525,7 +527,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 45, followUpText: [] },
             { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 46, followUpText: [] },
-            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 48, followUpText: [] },
+            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 47, followUpText: [] },
         ]
     },
 
