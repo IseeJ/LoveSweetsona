@@ -272,7 +272,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 25, followUpText: [] },
             { id: 2, text: "Flowers bouquet and nice dinner", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Taking me to place I mentioned once (thought they forgot!)", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "Remember that one thing I said I wanted to do and take me to do it", type: "A", weight: 1, next: 25, followUpText: [] },
             { id: 4, text: "A spontaneous weekend getaway after a long week", type: "A", weight: 1, next: 25, followUpText: [] },
         ]
     },
@@ -440,7 +440,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "Just be by my side, doing our own things", type: "R", weight: 1, next: 40, followUpText: [] },
             { id: 2, text: "Plan a fun date together, hanging out and having fun", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Always there when I need them, anytime, no questions", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "Give me their attention and care about how my day went", type: "R", weight: 1, next: 40, followUpText: [] },
             { id: 4, text: "Sweep me off my feet somewhere nice and pamper me", type: "A", weight: 1, next: 40, followUpText: [] },
         ]
     },
@@ -453,7 +453,7 @@ const dialogue = [
             { id: 2, text: "I'd be happy with a nice dinner together, nothing too fancy please.", type: "R", weight: 1, next: 40, followUpText: [] },
             { id: 3, text: "Oh, I have a plan alright, shhh it's a secret!", type: "A", weight: 1, next: 40, followUpText: [] },
             { id: 4, text: "I'm thinking a weekend getaway, just us, traveling together", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 5, text: "Nothing out of ordinary, wveryday is special for us", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 5, text: "Nothing out of ordinary, everyday is special for us", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 39 (13.6)
