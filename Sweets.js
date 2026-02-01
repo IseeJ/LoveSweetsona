@@ -11,7 +11,7 @@ const dialogue = [
         choices: [
             { id: 1, text: '*Open*', type: 'A', weight: 1, next: 2, followUpText: [] },
             { id: 2, text: '*Ignore it*', type: 'R', weight: 1, next: 1, followUpText: [] },
-            { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 47, followUpText: [] },
+            { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 9, followUpText: [] },
         ]
     },
     // 1
@@ -72,8 +72,8 @@ const dialogue = [
         speaker: 'bot',
         text: ['LOVEE the spirit, how \'bout some ice breaker huh?', 'ahem', 'roses are red...', 'violets are blue...'],
         choices: [
-            { id: 1, text: 'I\'ll bring you snacks and a warm blankie too.', type: 'S', weight: 1, next: 7, followUpText: [] },
-            { id: 2, text: 'This makes me nervous... but hi, it\'s good to see you.', type: 'W', weight: 1, next: 7, followUpText: [] },
+            { id: 1, text: 'I\'ll bring you snacks and a warm blankie too', type: 'S', weight: 1, next: 7, followUpText: [] },
+            { id: 2, text: 'This makes me nervous... but hi, it\'s good to see you', type: 'W', weight: 1, next: 7, followUpText: [] },
             { id: 3, text: 'You, Me, A date. Pick you up at two?', type: 'B', weight: 1, next: 7, followUpText: [] }
         ]
     },
@@ -94,21 +94,21 @@ const dialogue = [
     // 8 (5.1)
     {
         speaker: 'bot',
-        text: ["Well that's ok!", "I'm here to change that! (if you want)", "1) What kinda love are you hoping for, if I may ask...?"],
+        text: ["Well that's why I'm here!", "1) What flavour of love are you craving?"],
         choices: [
-            { id: 1, text: 'the ride or die type, even when stuff gets messy', type: 'D', weight: 1, next: 11, followUpText: [] },
-            { id: 2, text: 'total chaos, total fun. never a dull moment', type: 'P', weight: 1, next: 11, followUpText: [] },
-            { id: 3, text: 'something chill and solid. no drama, just real', type: 'G', weight: 1, next: 11, followUpText: [] },
+            { id: 1, text: 'rich and warm: sticking together through thick and thin', type: 'D', weight: 1, next: 11, followUpText: [] },
+            { id: 2, text: 'sweet and sour: total chaos, total fun. never a dull moment', type: 'P', weight: 1, next: 11, followUpText: [] },
+            { id: 3, text: 'mild and comforting: something chill and solid. no drama, just real', type: 'G', weight: 1, next: 11, followUpText: [] },
         ]
     },
     // 9 (5.2) BRANCH HERE
     {
         speaker: 'bot',
-        text: ["Ohooo, now we're talkin!!", "1) How’s it feeling so far?"],
+        text: ["Ohooo, now we're talkin!!", "and in a relationship, you're...?"],
         choices: [
-            { id: 1, text: 'like being held firmly through storm AND sunshine', type: 'D', weight: 1, next: 27, followUpText: [] },
-            { id: 2, text: 'like a rollercoaster! Chaotic, thrilling, no boring moments', type: 'P', weight: 1, next: 27, followUpText: [] },
-            { id: 3, text: 'like a safe place. Stable, solid, no nonsense', type: 'G', weight: 1, next: 27, followUpText: [] },
+            { id: 1, text: 'the one who takes the lead, set the pace , plans things', type: 'B', weight: 1, next: 45, followUpText: [] },
+            { id: 2, text: 'the steady presence, dependable, and consistent', type: 'S', weight: 1, next: 45, followUpText: [] },
+            { id: 3, text: 'the gentle supporter, vibe off my partner’s energy, moving carefully', type: 'W', weight: 1, next: 45, followUpText: [] },
         ]
     },
     // 10 (5.3)
@@ -118,7 +118,7 @@ const dialogue = [
         choices: [
             { id: 1, text: 'like knowing someone’s got my back, no matter what', type: 'D', weight: 1, next: 11, followUpText: [] },
             { id: 2, text: 'something kinda wild, spontaneous. but like... in a fun way', type: 'P', weight: 1, next: 11, followUpText: [] },
-            { id: 3, text: 'a soft couch, oversized hoodie, fluffy socks. Simple & Comfortable', type: 'G', weight: 1, next: 11, followUpText: [] },
+            { id: 3, text: 'a soft couch, oversized hoodie, fluffy socks. simple & Comfortable', type: 'G', weight: 1, next: 11, followUpText: [] },
         ]
     },
     // 11 (6)
@@ -334,7 +334,7 @@ const dialogue = [
         text: ["Awesomee", "3) So, how did it happen?", "Spill the teaaaa"],
         choices: [
             { id: 1, text: "I confessed first, they felt the same.", type: "B", weight: 1, next: 29, followUpText: [] },
-            { id: 2, text: "We've been around each other for a while, we bonded well", type: "S", weight: 1, next: 29, followUpText: [] },
+            { id: 2, text: "We've been around each other for a while, we bond really well", type: "S", weight: 1, next: 29, followUpText: [] },
             { id: 3, text: "They asked me out, and I said yes!", type: "W", weight: 1, next: 29, followUpText: [] },
             { id: 4, text: "They fell first, I fell harder :)", type: "W", weight: 1, next: 29, followUpText: [] },
         ]
@@ -355,7 +355,7 @@ const dialogue = [
     // 30 (9)
     {
         speaker: "bot",
-        text: ["Adorable", "5) You’d fall HARD if they just..."],
+        text: ["Adorable", "5) You know they're the one cuz they..."],
         choices: [
             { id: 1, text: "never failed to surprise me. Keeping it fun, energetic, and a bit chaotic!", type: "P", weight: 1, next: 31, followUpText: [] },
             { id: 2, text: "pay attention, remember the small things. Make me feel seen :)", type: "D", weight: 1, next: 31, followUpText: [] },
@@ -508,30 +508,52 @@ const dialogue = [
     // 43 (16) 
     {
         speaker: 'bot',
-        text: ["Last I felt that? Probably in a book","Speaking of which","12) If your love life was a romance novel, it'd be..."],
+        text: ["Last I felt that? Probably in a book","Speaking of which","12) If your love life was a romance novel, it'd feature..."],
         choices: [
-            { id: 1, text: "love at first sight", type: 'D', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 2, text: "gentle/comfort-core", type: 'G', type2: 'W', weight: 1, next: 44, followUpText: [] },
-            { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 4, text: "second chance romance", type: 'G', type2: 'S', weight: 1, next: 44, followUpText: [] },
-            { id: 5, text: "best friends to lovers", type: 'D', type2: 'S', weight: 1, next: 44, followUpText: [] },
-            { id: 6, text: "love hate", type: 'P', type2: 'W', weight: 1, next: 44, followUpText: [] },
+            { id: 1, text: "love at first sight", type: 'D', type2: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 2, text: "gentle/comfort-core", type: 'G', type2: 'W', weight: 1, next: 46, followUpText: [] },
+            { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 4, text: "second chance romance", type: 'G', type2: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 5, text: "best friends to lovers", type: 'D', type2: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 6, text: "love-hate", type: 'P', type2: 'W', weight: 1, next: 46, followUpText: [] },
         ]
     },
 
 
-    // 44 (17) 
+    // 44 (16) 
+    {
+        speaker: 'bot',
+        text: ["before we wrap up...", "in a relationship, you'd rather be...'"],
+        choices: [
+            { id: 1, text: 'the one who takes the lead, set the pace , plans things', type: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 2, text: 'the steady presence, dependable, and consistent', type: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 3, text: 'the gentle supporter, vibe off my partner’s energy, moving carefully', type: 'W', weight: 1, next: 46, followUpText: [] },
+        ]
+    },
+
+    // 45 (extra) 
+    {
+        speaker: 'bot',
+        text: ["1) How's it going so far?"],
+        choices: [
+            { id: 1, text: 'rich and warm: like a steady flame, sticking together through thick and thin', type: 'D', weight: 1, next: 27, followUpText: [] },
+            { id: 2, text: 'sweet and sour: like a rollercoaster! Chaotic, thrilling, never boring', type: 'P', weight: 1, next: 27, followUpText: [] },
+            { id: 3, text: 'mild and comforting: like a safe place. Stable, solid, no nonsense', type: 'G', weight: 1, next: 27, followUpText: [] },
+        ]
+    },
+
+    // 46 (17) 
     {
         speaker: 'bot',
         text: ["Alrighttt all done!", "anything else you wanna know?"],
         choices: [
-            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 45, followUpText: [] },
-            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 46, followUpText: [] },
-            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 47, followUpText: [] },
+            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 48, followUpText: [] },
+            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 49, followUpText: [] },
         ]
     },
 
-    // 45 last
+    // 47 last
     {
         speaker: 'bot',
         text: ["Ok! I got you!", "Enjoy your Sweetsona! *drumrolls*"],
@@ -539,7 +561,7 @@ const dialogue = [
             { id: 1, text: 'OK!', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
     },
-    // 46 last
+    // 48 last
     {
         speaker: 'bot',
         text: ["noooo ofc notttt", "All I wish for you is to find good love", "Plus i dont have enough memory to store all these!! Your secret is safe!", "(in all seriousness, im really not collecting any data!)", "Ready to see your Sweetsona?"],
@@ -548,7 +570,7 @@ const dialogue = [
         ]
     },
 
-    // 47 last
+    // 49 last
     {
         speaker: 'bot',
         text: ["Ohooo young Padawan, interested, you are?", "it took years and years and years and..", "years of life long singleness...", "jk, anyone can be a Cupid, if your heart says so ;)", "But for now, ready to see your Sweetsona?"],
