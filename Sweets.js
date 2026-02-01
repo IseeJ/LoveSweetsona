@@ -11,7 +11,7 @@ const dialogue = [
         choices: [
             { id: 1, text: '*Open*', type: 'A', weight: 1, next: 2, followUpText: [] },
             { id: 2, text: '*Ignore it*', type: 'R', weight: 1, next: 1, followUpText: [] },
-            // { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 9, followUpText: [] },
+            { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 9, followUpText: [] },
         ]
     },
     // 1
@@ -284,7 +284,7 @@ const dialogue = [
             { id: 1, text: "Hold my hand most (all) of the time", type: "R", weight: 1, next: 25, followUpText: [] },
             { id: 2, text: "Rest their head on my shoulder randomly", type: "R", weight: 1, next: 25, followUpText: [] },
             { id: 3, text: "Hug me from behind when I least expect it", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "Playfully touch my arm or shoulder while talking", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "Playfully squeezing my cheeks while talking", type: "A", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 25 (14) --> 10 AR+GDP
@@ -447,13 +447,13 @@ const dialogue = [
     // 38 (13.5)
     {
         speaker: "bot",
-        text: ["Speaking of surprises..", "9) Anniversary's coming up! What's the plan?"],
+        text: ["Speaking of surprises..", "Anniversary's coming up!","9) Anything you're expecting/planning?"],
         choices: [
-            { id: 1, text: "They always find a way to surprise me...I need to up my game!", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "I'd be happy with a nice dinner together, nothing too fancy please.", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Oh, I have a plan alright, shhh it's a secret!", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "I'm thinking a weekend getaway, just us, traveling together", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 5, text: "Nothing out of ordinary, everyday is special for us", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "Hoping they remembered that one thing I said I wanted forever ago...", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "Oh, I have a plan alright, and shhh it's a secret!", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "Nothing out of ordinary, everyday is special for us", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 5, text: "Honestly, they always find a way to surprise me...I need to up my game!", type: "R", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 39 (13.6)
@@ -471,10 +471,10 @@ const dialogue = [
     // 40 (14) --> 10 AR+GDP
     {
         speaker: "bot",
-        text: ["okayy im blushinggg", "10) Date ideas for this Valentines'??"],
+        text: ["okayy im blushinggg", "10) What about date ideas for this Valentines'??"],
         choices: [
             { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
-            { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
+            { id: 2, text: "Chaotic surprises, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
             { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 26, followUpText: [] },
             { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
         ]
@@ -497,7 +497,7 @@ const dialogue = [
         text: ["Last I felt that? Probably in a book","Speaking of which","12) Your favorite romance trope..."],
         choices: [
             { id: 1, text: "yearning", type: 'G', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 2, text: "slow burn", type: 'D', type2: 'W', weight: 1, next: 44, followUpText: [] },
+            { id: 2, text: "forbidden love", type: 'D', type2: 'W', weight: 1, next: 44, followUpText: [] },
             { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 44, followUpText: [] },
             { id: 4, text: "I can fix them", type: 'G', type2: 'W', weight: 1, next: 44, followUpText: [] },
             { id: 5, text: "fake dating", type: 'P', type2: 'S', weight: 1, next: 44, followUpText: [] },

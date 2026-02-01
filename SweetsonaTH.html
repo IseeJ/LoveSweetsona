@@ -573,7 +573,7 @@ const dialogue = [
         choices: [
             { id: 1, text: '*เปิดเลย*', type: 'A', weight: 1, next: 2, followUpText: [] },
             { id: 2, text: '*เมิน*', type: 'R', weight: 1, next: 1, followUpText: [] },
-            { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 16, followUpText: [] },
+            { id: 3, text: 'DEBUG', type: 'O', weight: 1, next: 42, followUpText: [] },
         ]
     },
     // 1
@@ -588,7 +588,7 @@ const dialogue = [
     // 2 (1)
     {
         speaker: 'bot',
-        text: ['เฮ้ เฮ้ เฮ้~', 'เจอเบเกอรี่ของเราจนได้นะ!', "คิวปิดรายงานตัว! ปีนี้เรามาในฐานะเชฟขนมหวาน พร้อมรับออเดอร์แล้วว", 'คิดถึงกันป่ะ ,:3'],
+        text: ['ฮายยย', 'เจอเบเกอรี่ของเราจนได้นะ!', "คิวปิดรายงานตัว! ปีนี้เรามาในฐานะเชฟขนมหวาน พร้อมรับออเดอร์แล้วว", 'คิดถึงกันป่ะ ,:3'],
         choices: [
             { id: 1, text: 'ไม่ค่อยอะ', type: 'G', weight: 1, next: 3, followUpText: [] },
             { id: 2, text: 'แน่นอนนน คิดถึงมากก', type: 'P', weight: 1, next: 4, followUpText: [] },
@@ -643,7 +643,7 @@ const dialogue = [
     // 7 (4)
     {
         speaker: "bot",
-        text: ["เขินเลยย เสี่ยวเหมือนกันนะเราอะ", "จะว่าไป...มีไรอัปเดตมั้ย ชีวิตรักของเธอน่ะ", "พลังแห่งความรักที่เราส่งไปได้ผลมั่งมั้ย หื้มมมม"],
+        text: ["ใช้ได้! 10/10!", "จะว่าไป...มีไรอัปเดตมั้ย ชีวิตรักของเธอน่ะ", "พลังแห่งความรักที่เราส่งไปได้ผลมั่งมั้ย หื้มมมม"],
         choices: [
             { id: 1, text: "ไม่อะ ยังโสดโสดอยู่ตรงนี้", type: "S", weight: 1, next: 8, followUpText: [] },
             { id: 2, text: "มีแฟนแล้วล่ะ", type: "B", weight: 1, next: 9, followUpText: [] },
@@ -656,21 +656,21 @@ const dialogue = [
     // 8 (5.1)
     {
         speaker: 'bot',
-        text: ["เอาน่าา", "มีคิวปิดทั้งคน เดี๋ยวจัดการให้สมหวังเอง", "1) อยากได้แบบไหน แอบกระซิบมาได้นะ?"],
+        text: ["เอาน่าา", "มีคิวปิดทั้งคน เดี๋ยวจัดการให้สมหวังเอง", "1) อยากได้รสชาติแบบไหน แอบกระซิบมาได้นะ?"],
         choices: [
-            { id: 1, text: 'ร่วมทุกข์ร่วมสุขไปด้วยกัน เคียงข้างกันเสมอ', type: 'D', weight: 1, next: 11, followUpText: [] },
-            { id: 2, text: 'มีเรื่องน่าตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 11, followUpText: [] },
-            { id: 3, text: 'เรื่อยๆชิลๆ มั่นคง ไม่ดราม่า จริงใจต่อกัน', type: 'G', weight: 1, next: 11, followUpText: [] },
+            { id: 1, text: 'ลึกซึ้งและเร่าร้อน: ร่วมทุกข์ร่วมสุขไปด้วยกัน เคียงข้างกันเสมอ', type: 'D', weight: 1, next: 11, followUpText: [] },
+            { id: 2, text: 'หวานอมเปรี้ยว: มีเรื่องน่าตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 11, followUpText: [] },
+            { id: 3, text: 'นุ่มนวลและอบอุ่น: เรื่อยๆชิลๆ มั่นคง ไม่ดราม่า จริงใจต่อกัน', type: 'G', weight: 1, next: 11, followUpText: [] },
         ]
     },
     // 9 (5.2) BRANCH HERE
     {
         speaker: 'bot',
-        text: ["อุ้ย โอเคคค", "1) เป็นไงมั่งไหนเล่าา"],
+        text: ["Ohooo, now we're talkin!!", "ในความสัมพันธ์นี้ บทบาทของเธอก็คือ?"],
         choices: [
-            { id: 1, text: 'ฟีลมีคนคอยอยู่เคียงข้างกันเสมอไม่ว่าจะสุขหรือเศร้า', type: 'D', weight: 1, next: 27, followUpText: [] },
-            { id: 2, text: 'ฟีลตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 27, followUpText: [] },
-            { id: 3, text: 'ฟีลเซฟโซน มั่นคง แน่นอน รักจริงหวังแต่ง', type: 'G', weight: 1, next: 27, followUpText: [] },
+            { id: 1, text: 'คนที่คอยนำ คอย the one who takes the lead, set the pace , plans things', type: 'B', weight: 1, next: 45, followUpText: [] },
+            { id: 2, text: 'the steady presence, dependable, and consistent', type: 'S', weight: 1, next: 45, followUpText: [] },
+            { id: 3, text: 'the gentle supporter, vibe off my partner’s energy, moving carefully', type: 'W', weight: 1, next: 45, followUpText: [] },
         ]
     },
     // 10 (5.3)
@@ -762,7 +762,7 @@ const dialogue = [
     // 17 (11)
     {
         speaker: "bot",
-        text: ["เผื่อๆไว้", "7) เธอขัดการยังไงเวลาบทสนทนาเริ่มเงียบๆอึดอัดๆ"],
+        text: ["เผื่อๆไว้", "7) เธอจัดการยังไงเวลาบทสนทนาเริ่มเงียบๆอึดอัดๆ"],
         choices: [
             { id: 1, text: "เฉยๆไว้ แอบหวังให้อีกฝ่ายพูดอะไรขึ้นมาก่อน", type: "W", weight: 1, next: 18, followUpText: [] },
             { id: 2, text: "เริ่มบทสนทนาใหม่ทันที หาหัวข้อที่ดีขึ้น ไม่ปล่อยให้กริบหรอกน่า", type: "B", weight: 1, next: 18, followUpText: [] },
@@ -772,7 +772,7 @@ const dialogue = [
     // 18 (12)
     {
         speaker: "bot",
-        text: ["เลือกได้ดี เราก็คงจะทำงั้นเหมือนกัน", "สมมตินะว่าเดืกัน", "8) ถ้าเขาทำแบบนี้ ถือว่าได้ใจเราไปเลย!"],
+        text: ["8) คนที่ทำแบบนี้ ถือว่าได้ใจเราไปเลย!"],
         choices: [
             { id: 1, text: "ทำอะไรดีๆให้เราโดยไม่ต้องบอก", type: "G", weight: 1, next: 19, followUpText: [] },
             { id: 2, text: "ตั้งใจฟังเรา ซัพพอร์ทเราอย่างจริงใจสุดๆ", type: "D", weight: 1, next: 20, followUpText: [] },
@@ -790,13 +790,13 @@ const dialogue = [
             { id: 1, text: "วางแผนเดทน่ารักๆเอาไว้ให้เราเสมอ", type: "A", weight: 1, next: 25, followUpText: [] },
             { id: 2, text: "ช่วยทำงานบ้านให้ เราจะได้พักผ่อน", type: "R", weight: 1, next: 25, followUpText: [] },
             { id: 3, text: "จำสิ่งเล็กๆที่เราเคยบอกไว้ว่าอยากได้ และทำให้เป็นจริง", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "มาหาพร้อมขนม ผ้าห่ม และไม่คาดหวังอะไรเลย ปล่อยให้เป็นหน้าที่เขา", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "มาหาพร้อมขนม ผ้าห่ม และอ้อมกอดอุ่นๆ", type: "R", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 20 (13.2)
     {
         speaker: "bot",
-        text: ["9) กำลังบ่นระบายให้เขาฟังอยู่เลย อยากให้เขา..."],
+        text: ["9) กำลังบ่นระบายให้เขาฟังอยู่ ก็อยากให้เขา..."],
         choices: [
             { id: 1, text: "ฟังเงียบๆอย่างตั้งใจแล้วปล่อยเราระบายออกไปให้หมด", type: "R", weight: 1, next: 25, followUpText: [] },
             { id: 2, text: "ปลอบให้แอปปี้ขึ้น สนับสนุน และฟีดขนมกับของกินที่เราชอบ", type: "A", weight: 1, next: 25, followUpText: [] },
@@ -820,32 +820,32 @@ const dialogue = [
         speaker: "bot",
         text: ["9) พอมีเวลาให้กัน เราก็อยากให้เขา..."],
         choices: [
-            { id: 1, text: "Sweep me off my feet somewhere nice and pamper me", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "Plan a fun date together, hanging out and having fun", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Just be by my side, doing our own things", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "Always there when I need them, anytime, no questions", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "พาไปเดทดีๆ ดูแลเอาใจใส่ สปอยล์เราเยอะๆ", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "แค่อยู่ข้างๆกันก็พอ ต่างคนต่างทำอะไรของตัวเองก็ได้", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "ช่วยกันแพลนเดทสนุกๆ ไปเที่ยว ไปทำอะไรเพลินๆ ด้วยกัน", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "ให้ความสนใจกับเราเต็มที่ นั่งพูดคุยด้วยกันแบบชิลๆ", type: "R", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 23 (13.5)
     {
         speaker: "bot",
-        text: ["9) Your fav kind of surprise is...?"],
+        text: ["9) เซอร์ไพรส์ที่ชอบที่สุดก็คือ..."],
         choices: [
-            { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "Flowers bouquet and nice dinner", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Taking me to place I mentioned once (thought they forgot!)", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "A spontaneous weekend getaway after a long week", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "ของขวัญทำมือที่ดูมีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "ช่อดอกไม้สวยๆและอาหารดีๆ", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "จำได้ว่าเราเคยพูดว่าอยากทำอะไร แล้วพาเราไปทำจริงๆ", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "จัดทริปเซอร์ไพรส์ไปเที่ยวพักผ่อนกันซักอาทิตย์นึง", type: "A", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 24 (13.6)
     {
         speaker: "bot",
-        text: ["9) You would melt immediately if they..."],
+        text: ["9) ทำแบบนี้ล่ะใจบางแน่ๆ..."],
         choices: [
-            { id: 1, text: "Hold my hand most (all) of the time", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "Rest their head on my shoulder randomly", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Hug me from behind when I least expect it", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "Playfully touch my arm or shoulder while talking", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "ขยับมาจับมือกันไว้แน่นๆ", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "อยู่ๆก็เอนหัวมาซบพิงหัวไหล่", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "โผล่เข้ามากอดจากด้านหลังแบบอุ่นๆ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "บีบแก้มเล่นๆ ระหว่างที่คุยกัน", type: "A", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 25 (14) --> 10 AR+GDP
@@ -862,13 +862,13 @@ const dialogue = [
     // 26 (15) --> 11 BSW
     {
         speaker: "bot",
-        text: ["11) It's important that your future partner can guarantee you..."],
+        text: ["11) ถ้าคบกับใครแล้ว สิ่งนี้สำคัญมาก.."],
         choices: [
-            { id: 1, text: "Loyalty, passion, enough energy to match mine", type: "B", weight: 1, next: 42, followUpText: [] },
-            { id: 2, text: "Consistency, warm hugs, 24/7 support (emotionally and etc.)", type: "S", weight: 1, next: 42, followUpText: [] },
-            { id: 3, text: "Understanding, soft reassurances, and always taking care of me", type: "W", weight: 1, next: 42, followUpText: [] },
-            { id: 4, text: "Spontaneity, big gesture, and a lot of surprises", type: "B", weight: 1, next: 42, followUpText: [] },
-            { id: 5, text: "Respect for my personal space and time, soft quiet love, and a safe zone", type: "W", weight: 1, next: 42, followUpText: [] },
+            { id: 1, text: "ความซื่อสัตย์ แพชชั่นร้อนแรง และมีพลังงานล้นเหลืออ", type: "B", weight: 1, next: 42, followUpText: [] },
+            { id: 2, text: "ความมั่นคง อบอุ่น และพร้อมช่วยซัพพอร์ท 24/7", type: "S", weight: 1, next: 42, followUpText: [] },
+            { id: 3, text: "ความเข้าใจ คอยปลอบใจ และดูแลกันเสมอ", type: "W", weight: 1, next: 42, followUpText: [] },
+            { id: 4, text: "ความแปลกใหม่ จัดเต็มเล่นใหญ่ และเซอร์ไพรส์เต็มไปหมด", type: "B", weight: 1, next: 42, followUpText: [] },
+            { id: 5, text: "ความเคารพนับถือ ความเป็นส่วนตัว และเซฟโซนของกันและกัน", type: "W", weight: 1, next: 42, followUpText: [] },
         ]
     },
 
@@ -879,7 +879,7 @@ const dialogue = [
     // 27 (6)
     {
         speaker: "bot",
-        text: ["You deserve that kinda love, no question.", "2) Where did you find your person hm?"],
+        text: ["ดีจังง", "2) ไปเจอกันจากไหนเนี่ย หื้ม?"],
         choices: [
             { id: 1, text: "I was out doing some activities like hiking, book club, concert, etc.", type: "A", type2: "G", weight: 1, next: 28, followUpText: [] },
             { id: 2, text: "We met at workplace/school", type: "R", weight: 1, type2: "D", next: 28, followUpText: [] },
@@ -964,135 +964,161 @@ const dialogue = [
     // 34 (13.1)
     {
         speaker: "bot",
-        text: ["9) What kind of nice are we talking?"],
+        text: ["9) แบบไหนที่ถูกใจที่สุด.."],
         choices: [
-            { id: 1, text: "Plan cute dates for me", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "Do errands or chores so I can relax", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Remembers things I mentioned weeks ago and acts on it", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "Shows up with snacks, a blanket, and no expectations", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "วางแผนเดทน่ารักๆเอาไว้ให้เราเสมอ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "ช่วยทำงานบ้านให้ เราจะได้พักผ่อน", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "จำสิ่งเล็กๆที่เราเคยบอกไว้ว่าอยากได้ และทำให้เป็นจริง", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "มาหาพร้อมขนม ผ้าห่ม และอ้อมกอดอุ่นๆ", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 35 (13.2)
     {
         speaker: "bot",
-        text: ["9) You're venting, all you want is for them to..."],
+        text: ["9) กำลังบ่นระบายให้เขาฟังอยู่ ก็อยากให้เขา.."],
         choices: [
-            { id: 1, text: "Listen quietly and let me get it all out", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "Hype me up no matter what! And feed me, I need to be fed.", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Drops everything and come stay by my side", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "Distract me, make me laugh it off, but remember every detail later", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "ฟังเงียบๆอย่างตั้งใจแล้วปล่อยเราระบายออกไปให้หมด", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "ปลอบให้แอปปี้ขึ้น สนับสนุน และฟีดขนมกับของกินที่เราชอบ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "วางทุกอย่างลงและมาหาทันทีเพื่อคอยอยู่ข้างๆ", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "หาเรื่องสนุกๆมาให้เรา ทำให้เราขำจนลืมเรื่องเครียด", type: "A", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 36 (13.3)
     {
         speaker: "bot",
-        text: ["9) Their humor looks like..."],
+        text: ["9) สิ่งที่เขาทำแล้วเราหัวเราะ.."],
         choices: [
-            { id: 1, text: "Doing silly stuffs together, zero thoughts, all love", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "Playful banter, roasting each other (affectionately)", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Inside jokes no one else gets", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "Being goofy and chaotic just for my reaction", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "หาอะไรที่มันติงต๊องๆ แปลกๆ ทำด้วยกัน ไม่ต้องคิดมาก แต่รักมากๆ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "เถียงกันเล่นๆ แซวกันบ่อยๆ รักหลอกจิงหยอกเล่น", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "มีมุกที่เราเก็ทกันอยู่แค่สองคน แค่มองตาก็รู้ใจ", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "ทำตัวป่วนๆตลกๆ แกล้งเล่นๆ เพื่อดูรีแอ็คชั่นเรา", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 37 (13.4)
     {
         speaker: "bot",
-        text: ["9) When they give you their time, you expect them to..."],
+        text: ["9) พอมีเวลาให้กัน เราก็อยากให้เขา..."],
         choices: [
-            { id: 1, text: "Just be by my side, doing our own things", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "Plan a fun date together, hanging out and having fun", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Always there when I need them, anytime, no questions", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "Sweep me off my feet somewhere nice and pamper me", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "พาเราไปเดทดีๆ ดูแลเอาใจใส่ สปอยล์เราเยอะๆ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "ช่วยกันแพลนเดทสนุกๆ ไปเที่ยว ไปทำอะไรเพลินๆ ด้วยกัน", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "แค่อยู่ข้างๆกันก็พอ ต่างคนต่างทำอะไรของตัวเองก็ได้", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "ให้ความสนใจกับเราเต็มที่ นั่งพูดคุยด้วยกันแบบชิลๆ", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 38 (13.5)
     {
         speaker: "bot",
-        text: ["Speaking of surprises..", "9) Anniversary's coming up! What's the plan?"],
+        text: ["ไหนๆก็พูดถึงเรื่องเซอร์ไพรส์", "วันครบรอบใกล้เข้ามาแล้ว!", "9) คาดหวังอะไรอยุ่ หรือเตรียมอะไรไว้ป่าว?"],
         choices: [
-            { id: 1, text: "They always find a way to surprise me...I need to up my game!", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "I'd be happy with a nice dinner together, nothing too fancy please.", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Oh, I have a plan alright, shhh it's a secret!", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "I'm thinking a weekend getaway, just us, traveling together", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 5, text: "Nothing out of ordinary, wveryday is special for us", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "ของขวัญทำมือที่ดูมีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "หวังว่าเขาจะจำได้ว่าเราเคยบอกว่าอยากได้อะไรแล้วซื้อมาให้น่ะ", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "มีอยู่แล้วน่ะแผน เงียบๆไว้ เดี๋ยวเขารู้ทัน", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "ไม่มีอะไรมาก ทุกวันเป็นวันพิเศษสำหรับพวกเราอยู่แล้ว", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 5, text: "เอาตรงๆนะ เขาหาเรื่องเซอร์ไพรส์เราก่อนตลอดเลย ต้องเอาคืนบ้างละ", type: "R", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 39 (13.6)
     {
         speaker: "bot",
-        text: ["9) You melt immediately when they..."],
+        text: ["9) ใจเธอละลายทันทีเมื่ออีกฝ่าย..."],
         choices: [
-            { id: 1, text: "Hold my hand most (all) of the time", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 2, text: "Rest their head on my shoulder randomly", type: "R", weight: 1, next: 40, followUpText: [] },
-            { id: 3, text: "Hug me from behind when I least expect it", type: "A", weight: 1, next: 40, followUpText: [] },
-            { id: 4, text: "Playfully touch my arm or shoulder while talking", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 1, text: "ขยับมาจับมือกันไว้แน่นๆ", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "อยู่ๆก็เอนหัวมาซบพิงหัวไหล่", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "โผล่เข้ามากอดจากด้านหลังแบบอุ่นๆ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "บีบแก้มเล่นๆ ระหว่างที่คุยกัน", type: "A", weight: 1, next: 40, followUpText: [] },
         ]
     },
 
     // 40 (14) --> 10 AR+GDP
     {
         speaker: "bot",
-        text: ["okayy im blushinggg", "10) Date ideas for this Valentines'??"],
+        text: ["เขินแทนเลยยย", "10) มีไอเดียเดทวันวาเลนไทน์มั้ย??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"G", weight: 1, next: 41, followUpText: [] },
-            { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "R",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
+            { id: 1, text: "อยู่บ้านแบบอบอุ่น ใส่ชุดนอนคู่ ดูหนัง ม้วนตัวในผ้าห่มผืนเดียวกัน", type: "R",type2:"G", weight: 1, next: 41, followUpText: [] },
+            { id: 2, text: "เซอร์ไพรส์ดินเนอร์หรู เดินริมทะเล แล้วก็ไปตะโกนร้องคาราโอเกะกัน!", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
+            { id: 3, text: "ใช้เวลาทั้งวันทำงานฝีมือกุ๊กกิ๊ก แล้วก็อบคุกกี้หัวใจด้วยกันเยอะๆเลย", type: "R",type2:"P", weight: 1, next: 41, followUpText: [] },
+            { id: 4, text: "แล้วแต่เขา อยากทำอะไร เราทำให้หมดแหละn :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
         ]
     },
     // 41 (15) --> 11 BSW
     {
         speaker: "bot",
-        text: ["11) It's important that your partner can guarantee you..."],
+        text: ["11) เธอคิดว่าจะดีมากถ้าอีกฝ่ายให้ความสำคัญกับ..."],
         choices: [
-            { id: 1, text: "Loyalty, passion, enough energy to match mine", type: "B", weight: 1, next: 43, followUpText: [] },
-            { id: 2, text: "Consistency, warm hugs, 24/7 support (emotionally and etc.)", type: "S", weight: 1, next: 43, followUpText: [] },
-            { id: 3, text: "Understanding, soft reassurances, and always taking care of me", type: "W", weight: 1, next: 43, followUpText: [] },
-            { id: 4, text: "Spontaneity, big gesture, and a lot of surprises", type: "B", weight: 1, next: 43, followUpText: [] },
-            { id: 5, text: "Respect for my personal space and time, soft quiet love, a safe zone", type: "W", weight: 1, next: 43, followUpText: [] },
+            { id: 1, text: "ความซื่อสัตย์ แพชชั่นร้อนแรง และมีพลังงานล้นเหลืออ", type: "B", weight: 1, next: 43, followUpText: [] },
+            { id: 2, text: "ความมั่นคง อบอุ่น และพร้อมช่วยซัพพอร์ท 24/7", type: "S", weight: 1, next: 43, followUpText: [] },
+            { id: 3, text: "ความเข้าใจ คอยปลอบใจ และดูแลกันเสมอ", type: "W", weight: 1, next: 43, followUpText: [] },
+            { id: 4, text: "ความแปลกใหม่ จัดเต็มเล่นใหญ่ และเซอร์ไพรส์เต็มไปหมด", type: "B", weight: 1, next: 43, followUpText: [] },
+            { id: 5, text: "ความเคารพนับถือ ความเป็นส่วนตัว และเซฟโซนของกันและกัน", type: "W", weight: 1, next: 43, followUpText: [] },
         ]
     },
+
+
+    
+
     // 42 (16) GDP+BSW
     {
         speaker: 'bot',
-        text: ["Last I felt that? Probably in a book","Speaking of which","12) Your favorite romance trope..."],
+        text: ["ครั้งล่าสุดที่ได้เห็นไรแบบนั้น ก็ในนิยายล่ะ","ว่าไปนั่น","12) เธอชอบนิยายรักแนวไหนหรอ..."],
         choices: [
-            { id: 1, text: "yearning", type: 'G', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 2, text: "slow burn", type: 'D', type2: 'W', weight: 1, next: 44, followUpText: [] },
-            { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 4, text: "I can fix them", type: 'G', type2: 'W', weight: 1, next: 44, followUpText: [] },
-            { id: 5, text: "fake dating", type: 'P', type2: 'S', weight: 1, next: 44, followUpText: [] },
-            { id: 6, text: "slow burn/friends to lovers", type: 'D', type2: 'S', weight: 1, next: 44, followUpText: [] },
+            { id: 1, text: "yearning คิดถึงแทบขาดใจ มองอะไรเห็นแต่หน้าเธอ", type: 'G', type2: 'B', weight: 1, next: 44, followUpText: [] },
+            { id: 2, text: "forbidden love รักต้องห้าม ห้ามเลิกรัก", type: 'D', type2: 'W', weight: 1, next: 44, followUpText: [] },
+            { id: 3, text: "enemies to lovers คู่กัดสู่คู่ใจ ตีกันไปรักกันไป", type: 'P', type2: 'B', weight: 1, next: 44, followUpText: [] },
+            { id: 4, text: "I can fix them...ตามนั้น", type: 'G', type2: 'W', weight: 1, next: 44, followUpText: [] },
+            { id: 5, text: "fake dating คบแกล้งๆ แต่ดันรักจริงๆ", type: 'P', type2: 'S', weight: 1, next: 44, followUpText: [] },
+            { id: 6, text: "slow burn น้ำหยดลงหินทุกวัน หินบอกรักก็ได้วะ", type: 'D', type2: 'S', weight: 1, next: 44, followUpText: [] },
         ]
     },
 
     // 43 (16) 
     {
         speaker: 'bot',
-        text: ["Last I felt that? Probably in a book","Speaking of which","12) If your love life was a romance novel, it'd be..."],
+        text: ["ครั้งล่าสุดที่ได้เห็นไรแบบนั้น ก็ในนิยายล่ะ","ว่าไปนั่น","12) เธอชอบนิยายรักแนวไหนหรอ..."],
         choices: [
-            { id: 1, text: "love at first sight", type: 'D', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 2, text: "gentle/comfort-core", type: 'G', type2: 'W', weight: 1, next: 44, followUpText: [] },
-            { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 44, followUpText: [] },
-            { id: 4, text: "second chance romance", type: 'G', type2: 'S', weight: 1, next: 44, followUpText: [] },
-            { id: 5, text: "best friends to lovers", type: 'D', type2: 'S', weight: 1, next: 44, followUpText: [] },
-            { id: 6, text: "love hate", type: 'P', type2: 'W', weight: 1, next: 44, followUpText: [] },
+            { id: 1, text: "love at first sight", type: 'D', type2: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 2, text: "gentle/comfort-core", type: 'G', type2: 'W', weight: 1, next: 46, followUpText: [] },
+            { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 4, text: "second chance romance", type: 'G', type2: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 5, text: "best friends to lovers", type: 'D', type2: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 6, text: "love-hate", type: 'P', type2: 'W', weight: 1, next: 46, followUpText: [] },
         ]
     },
 
 
-    // 44 (17) 
+    // 44 (16) 
+    {
+        speaker: 'bot',
+        text: ["before we wrap up...", "in a relationship, you'd rather be...'"],
+        choices: [
+            { id: 1, text: 'the one who takes the lead, set the pace , plans things', type: 'B', weight: 1, next: 46, followUpText: [] },
+            { id: 2, text: 'the steady presence, dependable, and consistent', type: 'S', weight: 1, next: 46, followUpText: [] },
+            { id: 3, text: 'the gentle supporter, vibe off my partner’s energy, moving carefully', type: 'W', weight: 1, next: 46, followUpText: [] },
+        ]
+    },
+
+    // 45 
+    {
+        speaker: 'bot',
+        text: ["1) แล้วเป็นไงมั่งไหนเล่าา"],
+        choices: [
+            { id: 1, text: 'ลึกซึ้งและเร่าร้อน: ฟีลมีคนคอยอยู่เคียงข้างกันเสมอไม่ว่าจะสุขหรือเศร้า', type: 'D', weight: 1, next: 27, followUpText: [] },
+            { id: 2, text: 'หวานอมเปรี้ยว: ฟีลตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 27, followUpText: [] },
+            { id: 3, text: 'นุ่มนวลและอบอุ่น: ฟีลเซฟโซน มั่นคง แน่นอน รักจริงหวังแต่ง', type: 'G', weight: 1, next: 27, followUpText: [] },
+        ]
+    },
+
+    // 46 (17) 
     {
         speaker: 'bot',
         text: ["Alrighttt all done!", "anything else you wanna know?"],
         choices: [
-            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 45, followUpText: [] },
-            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 46, followUpText: [] },
-            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 47, followUpText: [] },
+            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 48, followUpText: [] },
+            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 49, followUpText: [] },
         ]
     },
 
-    // 45 last
+    // 47 last
     {
         speaker: 'bot',
         text: ["Ok! I got you!", "Enjoy your Sweetsona! *drumrolls*"],
@@ -1100,7 +1126,7 @@ const dialogue = [
             { id: 1, text: 'OK!', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
     },
-    // 46 last
+    // 48 last
     {
         speaker: 'bot',
         text: ["noooo ofc notttt", "All I wish for you is to find good love", "Plus i dont have enough memory to store all these!! Your secret is safe!", "(in all seriousness, im really not collecting any data!)", "Ready to see your Sweetsona?"],
@@ -1109,7 +1135,7 @@ const dialogue = [
         ]
     },
 
-    // 47 last
+    // 49 last
     {
         speaker: 'bot',
         text: ["Ohooo young Padawan, interested, you are?", "it took years and years and years and..", "years of life long singleness...", "jk, anyone can be a Cupid, if your heart says so ;)", "But for now, ready to see your Sweetsona?"],
@@ -1118,6 +1144,8 @@ const dialogue = [
         ]
     },
 ];
+
+
 
 
 
