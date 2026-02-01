@@ -778,7 +778,7 @@ const dialogue = [
             { id: 2, text: "ตั้งใจฟังเรา ซัพพอร์ทเราอย่างจริงใจสุดๆ", type: "D", weight: 1, next: 20, followUpText: [] },
             { id: 3, text: "ทำให้เราหัวเราะจนหายใจไม่ทัน", type: "P", weight: 1, next: 21, followUpText: [] },
             { id: 4, text: "ให้เวลากับเราเยอะๆ สนใจเราคนเดียว เรื่องอื่นไว้ทีหลัง", type: "D", weight: 1, next: 22, followUpText: [] },
-            { id: 5, text: "ให้ของขวัญเล็กๆน้อย มีเซอร์ไพรสืเรื่อยๆ", type: "G", weight: 1, next: 23, followUpText: [] },
+            { id: 5, text: "ให้ของขวัญเล็กๆน้อย มีเซอร์ไพรส์เรื่อยๆ", type: "G", weight: 1, next: 23, followUpText: [] },
             { id: 6, text: "สัมผัสเบาๆ ที่เต็มไปด้วยความอบอุ่นและความไว้ใจ", type: "P", weight: 1, next: 24, followUpText: [] },
         ]
     },
@@ -789,7 +789,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "วางแผนเดทน่ารักๆเอาไว้ให้เราเสมอ", type: "A", weight: 1, next: 25, followUpText: [] },
             { id: 2, text: "ช่วยทำงานบ้านให้ เราจะได้พักผ่อน", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "จำสิ่งเล็กๆที่เราเคยบอกไว้ว่าอยากได้ และทำให้เป็นจริง", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "จำได้ว่าเราเคยพูดว่าอยากทำอะไร แล้วพาเราไปทำจริงๆ", type: "A", weight: 1, next: 25, followUpText: [] },
             { id: 4, text: "มาหาพร้อมขนม ผ้าห่ม และอ้อมกอดอุ่นๆ", type: "R", weight: 1, next: 25, followUpText: [] },
         ]
     },
@@ -829,12 +829,13 @@ const dialogue = [
     // 23 (13.5)
     {
         speaker: "bot",
-        text: ["9) เซอร์ไพรส์ที่ชอบที่สุดก็คือ..."],
+        text: ["9) ของขวัญที่ถูกใจสุดก็คือ..."],
         choices: [
-            { id: 1, text: "ของขวัญทำมือที่ดูมีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "ช่อดอกไม้สวยๆและอาหารดีๆ", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "จำได้ว่าเราเคยพูดว่าอยากทำอะไร แล้วพาเราไปทำจริงๆ", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "จัดทริปเซอร์ไพรส์ไปเที่ยวพักผ่อนกันซักอาทิตย์นึง", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "ของขวัญทำมือที่มีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "อัลบั้มความความทรงจำที่เรามีด้วยกัน จดหมายซึ้งๆและจุ๊บหลายๆที", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "ของขวัญสุดพิเศษที่เราเคยบอกไว้ว่าอยากได้", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "ช่อดอกไม้สวยๆและอาหารจานโปรดของเราที่เขาทำให้", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 5, text: "เงิน :3", type: "A", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 24 (13.6)
@@ -1010,11 +1011,11 @@ const dialogue = [
         speaker: "bot",
         text: ["ไหนๆก็พูดถึงเรื่องเซอร์ไพรส์", "วันครบรอบใกล้เข้ามาแล้ว!", "9) คาดหวังอะไรอยุ่ หรือเตรียมอะไรไว้ป่าว?"],
         choices: [
-            { id: 1, text: "ของขวัญทำมือที่ดูมีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "หวังว่าเขาจะจำได้ว่าเราเคยบอกว่าอยากได้อะไรแล้วซื้อมาให้น่ะ", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "มีอยู่แล้วน่ะแผน เงียบๆไว้ เดี๋ยวเขารู้ทัน", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "ไม่มีอะไรมาก ทุกวันเป็นวันพิเศษสำหรับพวกเราอยู่แล้ว", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 5, text: "เอาตรงๆนะ เขาหาเรื่องเซอร์ไพรส์เราก่อนตลอดเลย ต้องเอาคืนบ้างละ", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "ของขวัญทำมือที่ดูมีเอกลักษณ์และเต็มไปด้วยความทรงจำ", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "หวังว่าเขาจะจำได้ว่าเราเคยบอกว่าอยากได้อะไรแล้วซื้อมาให้น่ะ", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "มีอยู่แล้วน่ะแผน เงียบๆไว้ เดี๋ยวเขารู้ทัน", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "ไม่มีอะไรมาก ทุกวันเป็นวันพิเศษสำหรับพวกเราอยู่แล้ว", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 5, text: "เอาตรงๆนะ เขาหาเรื่องเซอร์ไพรส์เราก่อนตลอดเลย ต้องเอาคืนบ้างละ", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 39 (13.6)

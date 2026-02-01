@@ -268,12 +268,13 @@ const dialogue = [
     // 23 (13.5)
     {
         speaker: "bot",
-        text: ["9) Your fav kind of surprise is...?"],
+        text: ["9) Your fav kind of gifts/surprises...?"],
         choices: [
-            { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "Flowers bouquet and nice dinner", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Remember that one thing I said I wanted to do and take me to do it", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "A spontaneous weekend getaway after a long week", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "Weird little handmade gifts with big meanings and memories", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 2, text: "Flowers bouquet and homecook meal they know I love", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 3, text: "Gift me something I said I wanted for a while and they remembered!", type: "A", weight: 1, next: 25, followUpText: [] },
+            { id: 4, text: "Photo albums of our memories together, a heartfelt letter and lots of kisses", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 5, text: "Money :3", type: "A", weight: 1, next: 25, followUpText: [] },
         ]
     },
     // 24 (13.6)
@@ -449,11 +450,11 @@ const dialogue = [
         speaker: "bot",
         text: ["Speaking of surprises..", "Anniversary's coming up!","9) Anything you're expecting/planning?"],
         choices: [
-            { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 2, text: "Hoping they remembered that one thing I said I wanted forever ago...", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 3, text: "Oh, I have a plan alright, and shhh it's a secret!", type: "A", weight: 1, next: 25, followUpText: [] },
-            { id: 4, text: "Nothing out of ordinary, everyday is special for us", type: "R", weight: 1, next: 25, followUpText: [] },
-            { id: 5, text: "Honestly, they always find a way to surprise me...I need to up my game!", type: "R", weight: 1, next: 25, followUpText: [] },
+            { id: 1, text: "Weird handmade gifts with big meanings", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 2, text: "Hoping they remembered that one thing I said I wanted forever ago...", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 3, text: "Oh, I have a plan alright, and shhh it's a secret!", type: "A", weight: 1, next: 40, followUpText: [] },
+            { id: 4, text: "Nothing out of ordinary, everyday is special for us", type: "R", weight: 1, next: 40, followUpText: [] },
+            { id: 5, text: "Honestly, they always find a way to surprise me...I need to up my game!", type: "R", weight: 1, next: 40, followUpText: [] },
         ]
     },
     // 39 (13.6)
