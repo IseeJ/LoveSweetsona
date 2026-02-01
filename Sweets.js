@@ -176,7 +176,7 @@ const dialogue = [
         speaker: "bot",
         text: ["Adorable", "5) Your type is someone who..."],
         choices: [
-            { id: 1, text: "never failed to surprise me. Keeping it fun, energetic, and a bit chaotic!", type: "P", weight: 1, next: 16, followUpText: [] },
+            { id: 1, text: "is a ball of sunshine, full of energy. leeping it fun and a bit chaotic!", type: "P", weight: 1, next: 16, followUpText: [] },
             { id: 2, text: "pay attention, remember the small things. Make me feel seen :)", type: "D", weight: 1, next: 16, followUpText: [] },
             { id: 3, text: "take good care of me, put in the effort to keep me happy, being there, always.", type: "G", weight: 1, next: 16, followUpText: [] },
         ]
@@ -290,7 +290,7 @@ const dialogue = [
     // 25 (14) --> 10 AR+GDP
     {
         speaker: "bot",
-        text: ["okayy im blushinggg", "10) Date ideas for this Valentines'??"],
+        text: ["okayy im blushinggg", "10) Valentines' date ideas you'd like to try one day??"],
         choices: [
             { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
             { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
@@ -357,7 +357,7 @@ const dialogue = [
         speaker: "bot",
         text: ["Adorable", "5) You know they're the one cuz they..."],
         choices: [
-            { id: 1, text: "never failed to surprise me. Keeping it fun, energetic, and a bit chaotic!", type: "P", weight: 1, next: 31, followUpText: [] },
+            { id: 1, text: "put in the effort to see me smile. keeping it fun, energetic, and a bit chaotic!", type: "P", weight: 1, next: 31, followUpText: [] },
             { id: 2, text: "pay attention, remember the small things. Make me feel seen :)", type: "D", weight: 1, next: 31, followUpText: [] },
             { id: 3, text: "take good care of me, put in the effort to keep me happy, being present", type: "G", weight: 1, next: 31, followUpText: [] },
         ]
@@ -515,7 +515,7 @@ const dialogue = [
             { id: 3, text: "enemies to lovers", type: 'P', type2: 'B', weight: 1, next: 46, followUpText: [] },
             { id: 4, text: "second chance romance", type: 'G', type2: 'S', weight: 1, next: 46, followUpText: [] },
             { id: 5, text: "best friends to lovers", type: 'D', type2: 'S', weight: 1, next: 46, followUpText: [] },
-            { id: 6, text: "love-hate", type: 'P', type2: 'W', weight: 1, next: 46, followUpText: [] },
+            { id: 6, text: "opposites attract (and attack)", type: 'P', type2: 'W', weight: 1, next: 46, followUpText: [] },
         ]
     },
 
@@ -523,7 +523,7 @@ const dialogue = [
     // 44 (16) 
     {
         speaker: 'bot',
-        text: ["before we wrap up...", "in a relationship, you'd rather be...'"],
+        text: ["before we wrap up...", "in a relationship, you'd rather be..."],
         choices: [
             { id: 1, text: 'the one who takes the lead, set the pace , plans things', type: 'B', weight: 1, next: 46, followUpText: [] },
             { id: 2, text: 'the steady presence, dependable, and consistent', type: 'S', weight: 1, next: 46, followUpText: [] },
