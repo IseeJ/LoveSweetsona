@@ -374,6 +374,7 @@ const dialogue = [
             { id: 4, text: "I miss you sooooo muchhh why aren't you HERE rnnn", type: "P", type2: "W", weight: 1, next: 32, followUpText: [] },
             { id: 5, text: "How's your day? Do you need anything?", type: "G", type2: "W", weight: 1, next: 32, followUpText: [] },
             { id: 6, text: "Thinking 'bout you ;) see you in five, sweetheart", type: "D", type2: "S", weight: 1, next: 32, followUpText: [] },
+            { id: 7, text: "[Name] sent you $XXXX.XX", type: "P", type2: "S", weight: 1, next: 17, followUpText: [] },
         ]
     },
     // 32 (11)
@@ -559,7 +560,7 @@ const dialogue = [
         speaker: 'bot',
         text: ["Ok! I got you!", "Enjoy your Sweetsona! *drumrolls*"],
         choices: [
-            { id: 1, text: 'OK!', type: 'A', weight: 0, next: 100, followUpText: [] },
+            { id: 1, text: 'See Result', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
     },
     // 48 last
