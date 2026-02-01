@@ -624,8 +624,8 @@ const dialogue = [
         speaker: 'bot',
         text: ["โอเค ขออธิบายก่อนนะ", "วันนี้เรามาเก็บข้อมูลเพื่อเลือกขนมหวานที่เหมาะสมที่สุดสำหรับเธอ!",'หน้าที่คิวปิดน่ะ มี 12 คำถาม ไม่ยากหรอก พร้อมมั้ยๆ?'],
         choices: [
-            { id: 1, text: 'พร้อม', type: 'R', weight: 1, next: 6, followUpText: [] },
-            { id: 2, text: 'พร้อมจ้าา', type: 'A', weight: 1, next: 6, followUpText: [] }
+            { id: 1, text: 'พร้อม', type: 'R', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: 'พร้อมจ้าา', type: 'A', weight: 1, next: 47, followUpText: [] }
         ]
     },
 
@@ -633,7 +633,7 @@ const dialogue = [
     // 6 (3)
     {
         speaker: 'bot',
-        text: ['เยี่ยมมากกก วอร์มอัพกันก่อนเคป้ะ', 'อะแฮ่ม', 'roses are red...', 'violets are blue...'],
+        text: ["ซื้อขนมแถมการ์ด เธอเลือกที่จะหยิบใบที่เขียนว่า",'roses are red...', 'violets are blue...'],
         choices: [
             { id: 1, text: 'I\'ll bring you snacks and a warm blankie too.', type: 'S', weight: 1, next: 7, followUpText: [] },
             { id: 2, text: 'This makes me nervous... but hi, it\'s good to see you.', type: 'W', weight: 1, next: 7, followUpText: [] },
@@ -644,7 +644,7 @@ const dialogue = [
     // 7 (4)
     {
         speaker: "bot",
-        text: ["ใช้ได้! 10/10!", "จะว่าไป...มีไรอัปเดตมั้ย ชีวิตรักของเธอน่ะ", "พลังแห่งความรักที่เราส่งไปได้ผลมั่งมั้ย หื้มมมม"],
+        text: ["ใช้ได้! 10/10! มาเริ่มกันเลย", "จะว่าไป...มีไรอัปเดตมั้ย ชีวิตรักของเธอน่ะ", "พลังแห่งความรักที่เราส่งไปได้ผลมั่งมั้ย หื้มมมม"],
         choices: [
             { id: 1, text: "ไม่อะ ยังโสดโสดอยู่ตรงนี้", type: "S", weight: 1, next: 8, followUpText: [] },
             { id: 2, text: "มีแฟนแล้วล่ะ", type: "B", weight: 1, next: 9, followUpText: [] },
@@ -677,11 +677,11 @@ const dialogue = [
     // 10 (5.3)
     {
         speaker: 'bot',
-        text: ["เก็บเป็นความลับ?!", "ก็ได้ๆ งั้นบอกใบ้พอ", "1) เวลามีความรักเนี่ย อยากได้แบบไหน?"],
+        text: ["เก็บเป็นความลับ?!", "ก็ได้ๆ งั้นบอกใบ้พอ", "1) เวลามีความรักเนี่ย อยากได้รสชาติไหน?"],
         choices: [
-            { id: 1, text: 'ร่วมทุกข์ร่วมสุขไปด้วยกัน เคียงข้างกันเสมอ', type: 'D', weight: 1, next: 11, followUpText: [] },
-            { id: 2, text: 'มีเรื่องน่าตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 11, followUpText: [] },
-            { id: 3, text: 'เรื่อยๆชิลๆ มั่นคง ไม่ดราม่า จริงใจต่อกัน', type: 'G', weight: 1, next: 11, followUpText: [] },
+            { id: 1, text: 'ลึกซึ้งและเร่าร้อน: ร่วมทุกข์ร่วมสุขไปด้วยกัน เคียงข้างกันเสมอ', type: 'D', weight: 1, next: 11, followUpText: [] },
+            { id: 2, text: 'หวานอมเปรี้ยว: มีเรื่องน่าตื่นเต้นตลอดเวลา เร้าใจ สนุกๆไม่มีเบื่อ', type: 'P', weight: 1, next: 11, followUpText: [] },
+            { id: 3, text: 'นุ่มนวลและอบอุ่น: เรื่อยๆชิลๆ มั่นคง ไม่ดราม่า จริงใจต่อกัน', type: 'G', weight: 1, next: 11, followUpText: [] },
         ]
     },
     // 11 (6)
@@ -1115,13 +1115,26 @@ const dialogue = [
         speaker: 'bot',
         text: ["ครบแล้วล่ะ!", "มีอะไรอยากถามเรามั้ย"],
         choices: [
-            { id: 1, text: "ไม่อะ ขอดูผลลัพธ์เลย!", type: 'S', weight: 1, next: 47, followUpText: [] },
-            { id: 2, text: "คงไม่เอาข้อมูลเราไปเปิดเผยใช่มั้ย?!", type: 'W', weight: 1, next: 48, followUpText: [] },
-            { id: 3, text: "อยากเป็นคิวปิดต้องทำไง??", type: 'B', weight: 1, next: 49, followUpText: [] },
+            { id: 1, text: "ไม่อะ ขอดูผลลัพธ์เลย!", type: 'S', weight: 1, next: 48, followUpText: [] },
+            { id: 2, text: "คงไม่เอาข้อมูลเราไปเปิดเผยใช่มั้ย?!", type: 'W', weight: 1, next: 49, followUpText: [] },
+            { id: 3, text: "อยากเป็นคิวปิดต้องทำไง??", type: 'B', weight: 1, next: 50, followUpText: [] },
         ]
     },
 
-    // 47 last
+    // 47 extra
+
+    {
+        speaker: 'bot',
+        text: ['วอร์มอัพกันก่อนเคป้ะ', 'ในเมื่อมาเบเกอรี่เราก็ต้องถามแหละ','ขนมชิ้นไหนดึงดูดเธอสุด'],
+        choices: [
+            { id: 1, text: "ขนมที่เราชอบมาตลอด เคยกินบ่อยๆไม่ผิดหวังแน่นอน", type: 'S', weight: 1, next: 6, followUpText: [] },
+            { id: 2, text: "เลือกตามวัตถุดิบและรสชาติ ขอลองชิมก่อนค่อยตัดสินใจนะ", type: 'W', weight: 1, next: 6, followUpText: [] },
+            { id: 3, text: "ลองขนมที่หน้าตาแปลกใหม่ ดูน่ากิน ถึงจะไม่รู้ว่ามันคืออะไร", type: 'B', weight: 1, next: 6, followUpText: [] },
+        ]
+    },
+
+
+    // 48 last
     {
         speaker: 'bot',
         text: ["ได้เลยจ้าา", "ขอให้อร่อยกับ Sweetsona! *drumrolls*"],
@@ -1129,7 +1142,7 @@ const dialogue = [
             { id: 1, text: 'ดูผลลัพธ์เลย', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
     },
-    // 48 last
+    // 49 last
     {
         speaker: 'bot',
         text: ["แน่นอนว่าไม่!", "เรามาเพื่อช่วยให้เธอได้เจอรักที่ดีๆน่ะ", "แถมเราความจำสั้นซะด้วย จำไม่ได้ฟมดหรอกน่า", "พร้อมไปรับชม Sweetsona ของเธอรึยัง?"],
@@ -1138,7 +1151,7 @@ const dialogue = [
         ]
     },
 
-    // 49 last
+    // 50 last
     {
         speaker: 'bot',
         text: ["โฮ่ อยากเข้าร่วมเส้นทางของเรางั้นรึ", "ก็แบบว่าต้องใช้เวลาหลายปีอยู่...", "หลายปีแห่งความโสดน่ะ...", "หยอกๆ เธอเองก็เป็นได้นะ คิวปิดน่ะ", "แต่ตอนนี้ พร้อมไปดู Sweetsona ของเธอรึยัง?"],

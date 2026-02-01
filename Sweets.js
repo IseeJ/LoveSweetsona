@@ -61,8 +61,8 @@ const dialogue = [
         speaker: 'bot',
         text: ["Alright, lemme explain!", "I'm in charge of collecting some data to make THE perfect sweets for you", 'cupid\'s duty, 12 questions, blah blah blah, you know the drill, ready?'],
         choices: [
-            { id: 1, text: 'yes, Im ready', type: 'R', weight: 1, next: 6, followUpText: [] },
-            { id: 2, text: 'YESSS LETS GOOOOO', type: 'A', weight: 1, next: 6, followUpText: [] }
+            { id: 1, text: 'yes, Im ready', type: 'R', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: 'YESSS LETS GOOOOO', type: 'A', weight: 1, next: 47, followUpText: [] }
         ]
     },
 
@@ -70,7 +70,7 @@ const dialogue = [
     // 6 (3)
     {
         speaker: 'bot',
-        text: ['LOVEE the spirit, how \'bout some ice breaker huh?', 'ahem', 'roses are red...', 'violets are blue...'],
+        text: ["The dessert comes with a card, you pick the one that says...", 'roses are red...', 'violets are blue...'],
         choices: [
             { id: 1, text: 'I\'ll bring you snacks and a warm blankie too', type: 'S', weight: 1, next: 7, followUpText: [] },
             { id: 2, text: 'This makes me nervous... but hi, it\'s good to see you', type: 'W', weight: 1, next: 7, followUpText: [] },
@@ -81,12 +81,12 @@ const dialogue = [
     // 7 (4)
     {
         speaker: "bot",
-        text: ["smoooooooth, what a poet you are! how charming!", "So... any updates in your love life???", "Did my Cupid powers finally work?? huh huuuuhhh"],
+        text: ["Smoothhhh what a poet you are!", "Without further ado, it's time for some serious questions", "...any updates on your love life???"],
         choices: [
-            { id: 1, text: "nope, still single", type: "S", weight: 1, next: 8, followUpText: [] },
-            { id: 2, text: "I'm in a relationship", type: "B", weight: 1, next: 9, followUpText: [] },
-            { id: 3, text: "Well.. There's someone..", type: "S", weight: 1, next: 9, followUpText: [] },
-            { id: 4, text: "Why should I tell you?!", type: "W", weight: 1, next: 10, followUpText: [] },
+            { id: 1, text: "nope, still single", type: "S", weight: 0, next: 8, followUpText: [] },
+            { id: 2, text: "I'm in a relationship", type: "B", weight: 0, next: 9, followUpText: [] },
+            { id: 3, text: "Well.. There's someone..", type: "S", weight: 0, next: 9, followUpText: [] },
+            { id: 4, text: "Why should I tell you?!", type: "W", weight: 0, next: 10, followUpText: [] },
         ]
     },
 
@@ -114,11 +114,11 @@ const dialogue = [
     // 10 (5.3)
     {
         speaker: 'bot',
-        text: ["Keeping secrets, huh", "Fine, then tell me this", "1) When love hits… what do you want it to feel like?"],
+        text: ["Keeping secrets, huh", "Fine, then tell me this", "1) When love hits, what flavour are you expecting?"],
         choices: [
-            { id: 1, text: 'like knowing someone’s got my back, no matter what', type: 'D', weight: 1, next: 11, followUpText: [] },
-            { id: 2, text: 'something kinda wild, spontaneous. but like... in a fun way', type: 'P', weight: 1, next: 11, followUpText: [] },
-            { id: 3, text: 'a soft couch, oversized hoodie, fluffy socks. simple & Comfortable', type: 'G', weight: 1, next: 11, followUpText: [] },
+            { id: 1, text: 'rich and warm: like knowing someone’s got my back, no matter what', type: 'D', weight: 1, next: 11, followUpText: [] },
+            { id: 2, text: 'sweet and sour: something kinda wild, spontaneous. but like... in a fun way', type: 'P', weight: 1, next: 11, followUpText: [] },
+            { id: 3, text: 'mild and comforting: like a soft couch, chill and solid. no drama, just real.', type: 'G', weight: 1, next: 11, followUpText: [] },
         ]
     },
     // 11 (6)
@@ -302,7 +302,7 @@ const dialogue = [
     // 26 (15) --> 11 BSW
     {
         speaker: "bot",
-        text: ["11) It's important that your future partner can guarantee you..."],
+        text: ["good luck with that","11) It's important that your future partner can guarantee you..."],
         choices: [
             { id: 1, text: "Loyalty, passion, enough energy to match mine", type: "B", weight: 1, next: 42, followUpText: [] },
             { id: 2, text: "Consistency, warm hugs, 24/7 support (emotionally and etc.)", type: "S", weight: 1, next: 42, followUpText: [] },
@@ -475,16 +475,16 @@ const dialogue = [
         speaker: "bot",
         text: ["okayy im blushinggg", "10) What about date ideas for this Valentines'??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
-            { id: 2, text: "Chaotic surprises, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 26, followUpText: [] },
-            { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
+            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 41, followUpText: [] },
+            { id: 2, text: "Chaotic surprises, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
+            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 41, followUpText: [] },
+            { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
         ]
     },
     // 41 (15) --> 11 BSW
     {
         speaker: "bot",
-        text: ["11) It's important that your partner can guarantee you..."],
+        text: ["good luck with that", "11) It's important that your partner can guarantee you..."],
         choices: [
             { id: 1, text: "Loyalty, passion, enough energy to match mine", type: "B", weight: 1, next: 43, followUpText: [] },
             { id: 2, text: "Consistency, warm hugs, 24/7 support (emotionally and etc.)", type: "S", weight: 1, next: 43, followUpText: [] },
@@ -536,7 +536,7 @@ const dialogue = [
     // 45 (extra) 
     {
         speaker: 'bot',
-        text: ["1) How's it going so far?"],
+        text: ["1) How's it going so far? What's the vibes here?"],
         choices: [
             { id: 1, text: 'rich and warm: like a steady flame, sticking together through thick and thin', type: 'D', weight: 1, next: 27, followUpText: [] },
             { id: 2, text: 'sweet and sour: like a rollercoaster! Chaotic, thrilling, never boring', type: 'P', weight: 1, next: 27, followUpText: [] },
@@ -549,13 +549,27 @@ const dialogue = [
         speaker: 'bot',
         text: ["Alrighttt all done!", "anything else you wanna know?"],
         choices: [
-            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 47, followUpText: [] },
-            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 48, followUpText: [] },
-            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 49, followUpText: [] },
+            { id: 1, text: "Not really, just show my result!!", type: 'S', weight: 1, next: 48, followUpText: [] },
+            { id: 2, text: "You're not gonne expose my answers, right?", type: 'W', weight: 1, next: 49, followUpText: [] },
+            { id: 3, text: "How can I become a Cupid like you?", type: 'B', weight: 1, next: 50, followUpText: [] },
         ]
     },
 
-    // 47 last
+
+    // 47 extra
+
+    {
+        speaker: 'bot',
+        text: ['LOVEE the spirit, how \'bout some ice breaker huh?',  "You're at a bakery","Which dessert catches your eyes?"],
+        choices: [
+            { id: 1, text: "my favorite one! I had it so often, I know it's good and won't dissappoint", type: 'S', weight: 1, next: 6, followUpText: [] },
+            { id: 2, text: "will pick based on ingredients and flavours, try it before making a decision", type: 'W', weight: 1, next: 6, followUpText: [] },
+            { id: 3, text: "the pretty one in that front shelf, looks yummy, no idea what it is but worth the risk!", type: 'B', weight: 1, next: 6, followUpText: [] },
+        ]
+    },
+
+
+    // 48 last
     {
         speaker: 'bot',
         text: ["Ok! I got you!", "Enjoy your Sweetsona! *drumrolls*"],
@@ -563,7 +577,7 @@ const dialogue = [
             { id: 1, text: 'See Result', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
     },
-    // 48 last
+    // 49 last
     {
         speaker: 'bot',
         text: ["noooo ofc notttt", "All I wish for you is to find good love", "Plus i dont have enough memory to store all these!! Your secret is safe!", "(in all seriousness, im really not collecting any data!)", "Ready to see your Sweetsona?"],
@@ -572,7 +586,7 @@ const dialogue = [
         ]
     },
 
-    // 49 last
+    // 50 last
     {
         speaker: 'bot',
         text: ["Ohooo young Padawan, interested, you are?", "it took years and years and years and..", "years of life long singleness...", "jk, anyone can be a Cupid, if your heart says so ;)", "But for now, ready to see your Sweetsona?"],
