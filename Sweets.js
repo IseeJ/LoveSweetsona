@@ -41,8 +41,8 @@ const dialogue = [
         speaker: 'bot',
         text: [';( ouch', '...', "fineee I'll be profesh", "I'm in charge of collecting some data to pick THE perfect dessert for you", 'cupid\'s duty, 12 questions, you know the drill, ready?'],
         choices: [
-            { id: 1, text: 'yes, plz proceed', type: 'R', weight: 1, next: 6, followUpText: [] },
-            { id: 2, text: 'YESSS LETS GOOOOO IM READYYYY', type: 'A', weight: 1, next: 6, followUpText: [] }
+            { id: 1, text: 'yes, plz proceed', type: 'R', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: 'YESSS LETS GOOOOO IM READYYYY', type: 'A', weight: 1, next: 47, followUpText: [] }
         ]
     },
 
@@ -51,8 +51,8 @@ const dialogue = [
         speaker: 'bot',
         text: ['AWWWW missed you tooo', 'Let\'s seeee', "I'm in charge of collecting some data to make THE perfect dessert for you", 'cupid\'s duty, 12 questions, you know the drill, ready?'],
         choices: [
-            { id: 1, text: 'yes, go on', type: 'R', weight: 1, next: 6, followUpText: [] },
-            { id: 2, text: 'YESSS LETS GOOOOO', type: 'A', weight: 1, next: 6, followUpText: [] }
+            { id: 1, text: 'yes, go on', type: 'R', weight: 1, next: 47, followUpText: [] },
+            { id: 2, text: 'YESSS LETS GOOOOO', type: 'A', weight: 1, next: 47, followUpText: [] }
         ]
     },
 
