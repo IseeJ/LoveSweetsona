@@ -83,10 +83,10 @@ const dialogue = [
         speaker: "bot",
         text: ["Smoothhhh what a poet you are!", "Without further ado, it's time for some serious questions", "...any updates on your love life???"],
         choices: [
-            { id: 1, text: "nope, still single", type: "S", weight: 0, next: 8, followUpText: [] },
-            { id: 2, text: "I'm in a relationship", type: "B", weight: 0, next: 9, followUpText: [] },
-            { id: 3, text: "Well.. There's someone..", type: "S", weight: 0, next: 9, followUpText: [] },
-            { id: 4, text: "Why should I tell you?!", type: "W", weight: 0, next: 10, followUpText: [] },
+            { id: 1, text: "nope, still single", type: "G", weight: 1, next: 8, followUpText: [] },
+            { id: 2, text: "I'm in a relationship", type: "D", weight: 1, next: 9, followUpText: [] },
+            { id: 3, text: "Well.. There's someone..", type: "D", weight: 1, next: 9, followUpText: [] },
+            { id: 4, text: "Why should I tell you?!", type: "P", weight: 1, next: 10, followUpText: [] },
         ]
     },
 
@@ -293,9 +293,9 @@ const dialogue = [
         speaker: "bot",
         text: ["okayy im blushinggg", "10) Valentines' date ideas you'd like to try one day??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
+            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"G", weight: 1, next: 26, followUpText: [] },
             { id: 2, text: "Chaotic surprise date, fancy dinner, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 26, followUpText: [] },
+            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
             { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
         ]
     },
@@ -337,7 +337,7 @@ const dialogue = [
             { id: 1, text: "I confessed first, they felt the same.", type: "B", weight: 1, next: 29, followUpText: [] },
             { id: 2, text: "We've been around each other for a while, we bond really well", type: "S", weight: 1, next: 29, followUpText: [] },
             { id: 3, text: "They asked me out, and I said yes!", type: "W", weight: 1, next: 29, followUpText: [] },
-            { id: 4, text: "They fell first, I fell harder :)", type: "W", weight: 1, next: 29, followUpText: [] },
+            { id: 4, text: "They fell first, I fell harder :)", type: "B", weight: 1, next: 29, followUpText: [] },
         ]
     },
     // 29 (8)
@@ -385,6 +385,7 @@ const dialogue = [
             { id: 1, text: "kinda shut down and wait for them to bring it up. I don't wanna push or make it worse", type: "W", weight: 1, next: 33, followUpText: [] },
             { id: 2, text: "gently steer us somewhere softer, something we can both agree on", type: "S", weight: 1, next: 33, followUpText: [] },
             { id: 3, text: "face it head-on. I'd rather talk it out and fix it than leave things in the air", type: "B", weight: 1, next: 33, followUpText: [] },
+            
         ]
     },
 
@@ -475,9 +476,9 @@ const dialogue = [
         speaker: "bot",
         text: ["okayy im blushinggg", "10) What about date ideas for this Valentines'??"],
         choices: [
-            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"D", weight: 1, next: 41, followUpText: [] },
+            { id: 1, text: "Cozy night in, matching pajamas, movies, wrapped in the same blanket", type: "R",type2:"G", weight: 1, next: 41, followUpText: [] },
             { id: 2, text: "Chaotic surprises, beach walk, then karaoke at some point?", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "A",type2:"G", weight: 1, next: 41, followUpText: [] },
+            { id: 3, text: "Fun day full of silly little crafts, and way too many heart-shaped cookies", type: "R",type2:"D", weight: 1, next: 41, followUpText: [] },
             { id: 4, text: "Whatever they want, I'll make it happen :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
         ]
     },
@@ -565,6 +566,7 @@ const dialogue = [
             { id: 1, text: "my favorite one! I had it so often, I know it's good and won't dissappoint", type: 'S', weight: 1, next: 6, followUpText: [] },
             { id: 2, text: "will pick based on ingredients and flavours, try it before making a decision", type: 'W', weight: 1, next: 6, followUpText: [] },
             { id: 3, text: "the pretty one in that front shelf, looks yummy, no idea what it is but worth the risk!", type: 'B', weight: 1, next: 6, followUpText: [] },
+
         ]
     },
 

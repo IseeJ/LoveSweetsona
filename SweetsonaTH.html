@@ -513,17 +513,17 @@
         <!--p id="result-text" class="result-text"></p-->
         <p style = 'font-size:8px; font-family: "Kanit" , sans-serif;'>
 
-            ปล. คิดซะว่า Sweetsona คือคู่มือการดูแลขนมหวาน (เธอ) ให้ถูกต้องเหมาะสม Serving size คือเปอร์เซนต์ของคนที่ได้ไทป์นี้เหมือนกัน เราเอามาจากแบบสอบถามที่ทุกคนทำไว้จาก Love Pawsona ปีที่แล้วล่ะ
-            ปลล. ยินดีรับคำแนะนำเรื่องการแปลเป็นไทยนะ นี่เป็นโปรเจคแรกเลยล่ะที่เราทำทั้งเวอร์ชั่นอังกฤษและไทย ช่วยกันบอกเข้ามาได้เลยย</p>
+            ปล. คิดซะว่า Sweetsona คือคู่มือการดูแลขนมหวาน (เธอ) อย่างเหมาะสม Serving size คือเปอร์เซนต์ของคนที่ได้ไทป์นี้เหมือนกัน เราเอามาจากแบบสอบถามที่ทุกคนทำไว้จาก Love Pawsona ปีที่แล้วล่ะ
+            ปลล. นี่เป็นโปรเจคแรกเลยที่เราทำแบบสองภาษา! ถ้ามีคำแนะนำตรงไหนช่วยบอกกันเข้ามาได้เลยนะ</p>
         
             <div class="button-group">
             <button class="restart-button tooltip" onclick="share()">Share
                 <span class="tooltiptext">Download your result</span>
             </button>
-            <button class="restart-button" onclick="window.location.href='https://iseej.github.io/LovePawsona'">Restart</button>
-            <!--button class="restart-button tooltip" onclick="window.location.href='menu.html'">Menu
+            <button class="restart-button" onclick="window.location.href='https://iseej.github.io/LoveSweetsona'">Restart</button>
+            <button class="restart-button tooltip" onclick="window.location.href='menu.html'">Menu
                 <span class="tooltiptext">See other results</span>
-            </button-->
+            </button>
             </div>
 
 
@@ -646,10 +646,10 @@ const dialogue = [
         speaker: "bot",
         text: ["ใช้ได้! 10/10! มาเริ่มกันเลย", "จะว่าไป...มีไรอัปเดตมั้ย ชีวิตรักของเธอน่ะ", "พลังแห่งความรักที่เราส่งไปได้ผลมั่งมั้ย หื้มมมม"],
         choices: [
-            { id: 1, text: "ไม่อะ ยังโสดโสดอยู่ตรงนี้", type: "S", weight: 1, next: 8, followUpText: [] },
-            { id: 2, text: "มีแฟนแล้วล่ะ", type: "B", weight: 1, next: 9, followUpText: [] },
-            { id: 3, text: "ก็...คุยๆอยู่", type: "S", weight: 1, next: 9, followUpText: [] },
-            { id: 4, text: "ทำไมต้องบอกด้วย", type: "W", weight: 1, next: 10, followUpText: [] },
+            { id: 1, text: "ไม่อะ ยังโสดโสดอยู่ตรงนี้", type: "G", weight: 1, next: 8, followUpText: [] },
+            { id: 2, text: "มีแฟนแล้วล่ะ", type: "D", weight: 1, next: 9, followUpText: [] },
+            { id: 3, text: "ก็...คุยๆอยู่", type: "D", weight: 1, next: 9, followUpText: [] },
+            { id: 4, text: "ทำไมต้องบอกด้วย", type: "P", weight: 1, next: 10, followUpText: [] },
         ]
     },
 
@@ -857,7 +857,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "อยู่บ้านแบบอบอุ่น ใส่ชุดนอนคู่ ดูหนัง ม้วนตัวในผ้าห่มผืนเดียวกัน", type: "R",type2:"G", weight: 1, next: 26, followUpText: [] },
             { id: 2, text: "เซอร์ไพรส์ดินเนอร์หรู เดินริมทะเล แล้วก็ไปตะโกนร้องคาราโอเกะกัน!", type: "A",type2:"P", weight: 1, next: 26, followUpText: [] },
-            { id: 3, text: "ใช้เวลาทั้งวันทำงานฝีมือกุ๊กกิ๊ก แล้วก็อบคุกกี้หัวใจด้วยกันเยอะๆเลย", type: "R",type2:"P", weight: 1, next: 26, followUpText: [] },
+            { id: 3, text: "ใช้เวลาทั้งวันทำงานฝีมือกุ๊กกิ๊ก แล้วก็อบคุกกี้หัวใจด้วยกันเยอะๆเลย", type: "R",type2:"D", weight: 1, next: 26, followUpText: [] },
             { id: 4, text: "แล้วแต่เขา อยากทำอะไร เราทำให้หมดแหละ :)", type: "A",type2:"D", weight: 1, next: 26, followUpText: [] },
         ]
     },
@@ -899,7 +899,7 @@ const dialogue = [
             { id: 1, text: "เราบอกชอบเขาก่อน แล้วเขาก็ใจตรงกันพอดี", type: "B", weight: 1, next: 29, followUpText: [] },
             { id: 2, text: "ก็คุยๆกันมาซักพักแล้วล่ะ ผูกพันกันมานาน", type: "S", weight: 1, next: 29, followUpText: [] },
             { id: 3, text: "เขาทักมาชวนเราไปเดท แล้วเราก็ตอบตกลง!", type: "W", weight: 1, next: 29, followUpText: [] },
-            { id: 4, text: "เขาชอบเราก่อน เราชอบเขามากกว่า :)", type: "W", weight: 1, next: 29, followUpText: [] },
+            { id: 4, text: "เขาชอบเราก่อน เราคลั่งรักมากกว่า :)", type: "B", weight: 1, next: 29, followUpText: [] },
         ]
     },
     // 29 (8)
@@ -928,7 +928,7 @@ const dialogue = [
     // 31 (10)
     {
         speaker: "bot",
-        text: ["มิน่าล่ะถึงเหมาะสมกันดีมาก~!", "6) ข้อความที่เธอมักได้จากเขา..."],
+        text: ["มิน่าล่ะถึงเหมาะสมกันดีมาก~!", "6) ข้อความที่เธอมักได้จากเขาแล้วทำเอาใจเต้นรัว"],
         choices: [
             { id: 1, text: "คิดถึงทั้งวันเลยอะ หยุดคิดไม่ได้เลยจริงๆ ทำไงดี", type: "D", type2: "B", weight: 1, next: 32, followUpText: [] },
             { id: 2, text: "แมวนี่น่ารักเหมือนเธอเลย!! *รัวๆส่งมีมแมว*", type: "P", type2: "S", weight: 1, next: 32, followUpText: [] },
@@ -1039,7 +1039,7 @@ const dialogue = [
         choices: [
             { id: 1, text: "อยู่บ้านแบบอบอุ่น ใส่ชุดนอนคู่ ดูหนัง ม้วนตัวในผ้าห่มผืนเดียวกัน", type: "R",type2:"G", weight: 1, next: 41, followUpText: [] },
             { id: 2, text: "เซอร์ไพรส์ดินเนอร์หรู เดินริมทะเล แล้วก็ไปตะโกนร้องคาราโอเกะกัน!", type: "A",type2:"P", weight: 1, next: 41, followUpText: [] },
-            { id: 3, text: "ใช้เวลาทั้งวันทำงานฝีมือกุ๊กกิ๊ก แล้วก็อบคุกกี้หัวใจด้วยกันเยอะๆเลย", type: "R",type2:"P", weight: 1, next: 41, followUpText: [] },
+            { id: 3, text: "ใช้เวลาทั้งวันทำงานฝีมือกุ๊กกิ๊ก แล้วก็อบคุกกี้หัวใจด้วยกันเยอะๆเลย", type: "R",type2:"D", weight: 1, next: 41, followUpText: [] },
             { id: 4, text: "แล้วแต่เขา อยากทำอะไร เราทำให้หมดแหละ :)", type: "A",type2:"D", weight: 1, next: 41, followUpText: [] },
         ]
     },
