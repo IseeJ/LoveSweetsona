@@ -181,10 +181,12 @@
 
 
     footer {
+        font-family: 'Andale Mono', monospace;
         text-align: center;
     }
 
     footer a {
+        font-family: 'Andale Mono', monospace;
         font-size: 10px;
         text-decoration: none;
         color: var(--9-color);
@@ -486,7 +488,7 @@
         </button>
                  <p 
         onclick="window.open('index.html', '_blank');" 
-        style="color: var(--8-color); text-align: center; margin-top: 40px; cursor: pointer; padding: 10px; border: 1px solid var(--8-color); border-radius: 10px; max-width: 80%; margin-left: auto; margin-right: auto;">
+        style="font-family: 'Andale Mono', monospace; color: var(--8-color); text-align: center; margin-top: 40px; cursor: pointer; padding: 10px; border: 1px solid var(--8-color); border-radius: 10px; max-width: 80%; margin-left: auto; margin-right: auto;">
          Click here for English
     </p>
     </div>
@@ -500,7 +502,7 @@
     </div>
 
     <div class="result-page" id="result-page" style="display: none;">
-        <p>
+        <p style="font-family: 'Andale Mono', monospace;">
             Feel free to share your result!
         <div class="a2" onclick="triggerIconShower(event)">
             #LoveSweetsona
@@ -517,10 +519,10 @@
             ปลล. นี่เป็นโปรเจคแรกเลยที่เราทำแบบสองภาษา! ถ้ามีคำแนะนำตรงไหนช่วยบอกกันเข้ามาได้เลยนะ</p>
         
             <div class="button-group">
-            <button class="restart-button tooltip" onclick="share()">Share
+            <button class="restart-button tooltip" style="font-family: 'Andale Mono', monospace;" onclick="share()">Share
                 <span class="tooltiptext">Download your result</span>
             </button>
-            <button class="restart-button" onclick="window.location.href='https://iseej.github.io/LoveSweetsona'">Restart</button>
+            <button class="restart-button" style="font-family: 'Andale Mono', monospace;" onclick="window.location.href='https://iseej.github.io/LoveSweetsona'">Restart</button>
             <!--button class="restart-button tooltip" onclick="window.location.href='menu.html'">Menu
                 <span class="tooltiptext">See other results</span>
             </button-->
@@ -530,7 +532,7 @@
  <div class="promo-banners">
         <a href="https://www.webtoons.com/en/canvas/soulkeeping/list?title_no=1104299" target="_blank">
             <img src="SweetSona/banners/Soul.PNG" alt="Idea">
-            <p style="font-size: 11px;">check out my sister's webtoon! <a href="https://www.instagram.com/vitaminteadeaficiency/">@vitaminteadeaficiency</a></p>
+            <p style="font-size: 11px; font-family: 'Andale Mono', monospace;">check out my sister's webtoon! <a href="https://www.instagram.com/vitaminteadeaficiency/">@vitaminteadeaficiency</a></p>
         </a>
 
         <!--a href="https://www.instagram.com/chanchara49.36/" target="_blank">
@@ -1146,7 +1148,7 @@ const dialogue = [
     // 49 last
     {
         speaker: 'bot',
-        text: ["แน่นอนว่าไม่!", "เรามาเพื่อช่วยให้เธอได้เจอรักที่ดีๆน่ะ", "แถมเราความจำสั้นซะด้วย จำไม่ได้ฟมดหรอกน่า", "พร้อมไปรับชม Sweetsona ของเธอรึยัง?"],
+        text: ["แน่นอนว่าไม่!", "เรามาเพื่อช่วยให้เธอได้เจอรักที่ดีๆน่ะ", "แถมเราความจำสั้นซะด้วย จำไม่ได้หมดหรอกน่า", "พร้อมรับชม Sweetsona ของเธอยัง?"],
         choices: [
             { id: 1, text: 'พร้อม!!', type: 'A', weight: 0, next: 100, followUpText: [] },
         ]
