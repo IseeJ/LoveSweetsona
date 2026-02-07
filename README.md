@@ -18,7 +18,7 @@ All Rights Reserved.
 Thank you for your understanding!
 
 From Cupid:
-While Love Pawsona express you as a lover, Love Sweetsona lets you explore how you want to be loved. Enjoy! :)
+While [Love Pawsona](https://iseej.github.io/LovePawsona/) express you as a lover, [Sweetsona](https://iseej.github.io/LoveSweetsona/) lets you explore how you'd like to be loved. Enjoy! :)
 
 <img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100">
 <img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100">
@@ -27,6 +27,6 @@ While Love Pawsona express you as a lover, Love Sweetsona lets you explore how y
 
 Started: 12/01/25
 
-Finished: 
+Published: 02/09/26
 
 Made with: VS Code, Google Slides, ibisPaint
